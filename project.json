@@ -1,0 +1,49 @@
+{
+  "name": "Base64.ai Samples",
+  "description": "https://base64.ai",
+  "main": "Online Base64.ai.xaml",
+  "dependencies": {
+    "Base64ai.Activities": "2.0.1",
+    "UiPath.IntelligentOCR.Activities": "4.14.1-preview",
+    "UiPath.OCR.Activities": "3.0.0",
+    "UiPath.System.Activities": "21.4.0",
+    "UiPath.UIAutomation.Activities": "21.4.3",
+    "UiPath.WebAPI.Activities": "1.7.0"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

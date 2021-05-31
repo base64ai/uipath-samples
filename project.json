@@ -6,9 +6,12 @@
     "Base64ai.Activities": "2.0.1",
     "UiPath.IntelligentOCR.Activities": "4.14.1-preview",
     "UiPath.OCR.Activities": "3.0.0",
+    "UiPath.Platform": "21.4.0",
     "UiPath.System.Activities": "21.4.0",
     "UiPath.UIAutomation.Activities": "21.4.3",
-    "UiPath.WebAPI.Activities": "1.7.0"
+    "UiPath.WebAPI.Activities": "1.7.0",
+    "UiPathTeam.ImageActionGetSkewActivities": "1.0.0.2",
+    "UiPathTeamImageActionRotateActivities": "1.0.0.11"
   },
   "webServices": [],
   "entitiesStores": [],

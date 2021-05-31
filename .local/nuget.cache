@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B3Kx6XsNTU9kKclR8QKnpvgIABbkAhuv272xy9xzsyUUtLOqtJqXkaQtwVu5XGHBelv2WLUsAJNdl1hXXU1CDA==",
+  "dgSpecHash": "XULfHctlPQozNButxoEO5Kld3OdaEouqooSVmIQtULe1o9+zMQqExBQycTWK5eTRW2jiM0ZCtY21Kji2q4mUwA==",
   "success": true,
-  "projectFilePath": "\\\\mac\\Home\\Documents\\projects\\base64ai-uipath-samples\\.local\\",
+  "projectFilePath": "\\\\mac\\Home\\Documents\\projects\\base64.ai-uipath-samples\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\ozan\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\ozan\\.nuget\\packages\\aforge.genetic\\2.2.5\\aforge.genetic.2.2.5.nupkg.sha512",
@@ -71,7 +71,52 @@
     "C:\\Users\\ozan\\.nuget\\packages\\uipath.uiautomation.activities\\21.4.3\\uipath.uiautomation.activities.21.4.3.nupkg.sha512",
     "C:\\Users\\ozan\\.nuget\\packages\\uipath.vision\\3.0.1\\uipath.vision.3.0.1.nupkg.sha512",
     "C:\\Users\\ozan\\.nuget\\packages\\uipath.webapi.activities\\1.7.0\\uipath.webapi.activities.1.7.0.nupkg.sha512",
-    "C:\\Users\\ozan\\.nuget\\packages\\uipath.wordstonumbers\\1.0.0\\uipath.wordstonumbers.1.0.0.nupkg.sha512"
+    "C:\\Users\\ozan\\.nuget\\packages\\uipath.wordstonumbers\\1.0.0\\uipath.wordstonumbers.1.0.0.nupkg.sha512",
+    "C:\\Users\\ozan\\.nuget\\packages\\uipathteam.imageactiongetskewactivities\\1.0.0.2\\uipathteam.imageactiongetskewactivities.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\ozan\\.nuget\\packages\\uipathteamimageactionrotateactivities\\1.0.0.11\\uipathteamimageactionrotateactivities.1.0.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "\\\\mac\\Home\\Documents\\projects\\base64.ai-uipath-samples\\.local",
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Music' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "\\\\mac\\Home\\Documents\\projects\\base64.ai-uipath-samples\\.local",
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Pictures' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "\\\\mac\\Home\\Documents\\projects\\base64.ai-uipath-samples\\.local",
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Videos' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "\\\\mac\\Home\\Documents\\projects\\base64.ai-uipath-samples\\.local",
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Music' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "\\\\mac\\Home\\Documents\\projects\\base64.ai-uipath-samples\\.local",
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Pictures' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "\\\\mac\\Home\\Documents\\projects\\base64.ai-uipath-samples\\.local",
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Videos' is denied."
+    }
+  ]
 }

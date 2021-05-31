@@ -1874,6 +1874,24 @@
         "runtime": {
           "lib/netstandard2.0/Numsense.dll": {}
         }
+      },
+      "UiPathTeam.ImageActionGetSkewActivities/1.0.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ImageActionGetSkewActivities.dll": {}
+        }
+      },
+      "UiPathTeamImageActionRotateActivities/1.0.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ImageActionRotateActivities.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.6.1/win7-x86": {
@@ -3738,6 +3756,24 @@
         },
         "runtime": {
           "lib/netstandard2.0/Numsense.dll": {}
+        }
+      },
+      "UiPathTeam.ImageActionGetSkewActivities/1.0.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ImageActionGetSkewActivities.dll": {}
+        }
+      },
+      "UiPathTeamImageActionRotateActivities/1.0.0.11": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ImageActionRotateActivities.dll": {}
         }
       }
     }
@@ -5933,6 +5969,28 @@
         "uipath.wordstonumbers.1.0.0.nupkg.sha512",
         "uipath.wordstonumbers.nuspec"
       ]
+    },
+    "UiPathTeam.ImageActionGetSkewActivities/1.0.0.2": {
+      "sha512": "Wj5mLJlSBcpFaBSeLJ4cm+H4Nwwz63+E0To/pTePirOEWF1fYIqWzOPOVPN4TxmsDiX1wsyBqU/vv2zsgq4kGg==",
+      "type": "package",
+      "path": "uipathteam.imageactiongetskewactivities/1.0.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "lib/ImageActionGetSkewActivities.dll",
+        "uipathteam.imageactiongetskewactivities.1.0.0.2.nupkg.sha512",
+        "uipathteam.imageactiongetskewactivities.nuspec"
+      ]
+    },
+    "UiPathTeamImageActionRotateActivities/1.0.0.11": {
+      "sha512": "CVdaHrIH8YtHSu1XVrz7hNqdOewNE71Rq7skeltNyN9l4CqrQN/OW/KQxX6U5vZ55LZy/vnPuQCX9QcEdyKNxQ==",
+      "type": "package",
+      "path": "uipathteamimageactionrotateactivities/1.0.0.11",
+      "files": [
+        ".nupkg.metadata",
+        "lib/ImageActionRotateActivities.dll",
+        "uipathteamimageactionrotateactivities.1.0.0.11.nupkg.sha512",
+        "uipathteamimageactionrotateactivities.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -5941,9 +5999,12 @@
       "Base64ai.Activities >= 2.0.1 <= 2.0.1",
       "UiPath.IntelligentOCR.Activities >= 4.14.1-preview <= 4.14.1-preview",
       "UiPath.OCR.Activities >= 3.0.0 <= 3.0.0",
+      "UiPath.Platform >= 21.4.0 <= 21.4.0",
       "UiPath.System.Activities >= 21.4.0 <= 21.4.0",
       "UiPath.UIAutomation.Activities >= 21.4.3 <= 21.4.3",
-      "UiPath.WebAPI.Activities >= 1.7.0 <= 1.7.0"
+      "UiPath.WebAPI.Activities >= 1.7.0 <= 1.7.0",
+      "UiPathTeam.ImageActionGetSkewActivities >= 1.0.0.2 <= 1.0.0.2",
+      "UiPathTeamImageActionRotateActivities >= 1.0.0.11 <= 1.0.0.11"
     ]
   },
   "packageFolders": {
@@ -5953,9 +6014,9 @@
     "restore": {
       "projectUniqueName": "Base64.ai Samples",
       "projectName": "Base64.ai Samples",
-      "projectPath": "\\\\Mac\\Home\\Documents\\projects\\base64ai-uipath-samples\\.local",
+      "projectPath": "\\\\mac\\Home\\Documents\\projects\\base64.ai-uipath-samples\\.local",
       "packagesPath": "C:\\Users\\ozan\\.nuget\\packages\\",
-      "outputPath": "\\\\Mac\\Home\\Documents\\projects\\base64ai-uipath-samples\\.local"
+      "outputPath": "\\\\mac\\Home\\Documents\\projects\\base64.ai-uipath-samples\\.local"
     },
     "frameworks": {
       "net461": {
@@ -5975,6 +6036,11 @@
             "target": "Package",
             "version": "[3.0.0, 3.0.0]"
           },
+          "UiPath.Platform": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[21.4.0, 21.4.0]"
+          },
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -5989,10 +6055,58 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[1.7.0, 1.7.0]"
+          },
+          "UiPathTeam.ImageActionGetSkewActivities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0.2, 1.0.0.2]"
+          },
+          "UiPathTeamImageActionRotateActivities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0.11, 1.0.0.11]"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\ozan\\AppData\\Local\\UiPath\\app-21.4.3\\runtime.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\ozan\\AppData\\Local\\UiPath\\app-21.4.4\\runtime.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Music' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Pictures' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Videos' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Music' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Pictures' is denied."
+    },
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Access to the path 'C:\\Users\\ozan\\Documents\\My Videos' is denied."
+    }
+  ]
 }

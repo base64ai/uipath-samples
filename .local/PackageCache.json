@@ -205,6 +205,39 @@
         "C:\\Users\\ozan\\.nuget\\packages\\uipath.webapi.activities/1.7.0\\lib/net461/UiPath.Web.dll"
       ],
       "Path": "C:\\Users\\ozan\\.nuget\\packages\\uipath.webapi.activities\\1.7.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Platform",
+        "Version": "21.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\ozan\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\ozan\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\ozan\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\ozan\\.nuget\\packages\\uipath.platform/21.4.0\\lib/net461/UiPath.Platform.dll"
+      ],
+      "Path": "C:\\Users\\ozan\\.nuget\\packages\\uipath.platform\\21.4.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeamImageActionRotateActivities",
+        "Version": "1.0.0.11"
+      },
+      "Assemblies": [
+        "C:\\Users\\ozan\\.nuget\\packages\\uipathteamimageactionrotateactivities/1.0.0.11\\lib/ImageActionRotateActivities.dll"
+      ],
+      "Path": "C:\\Users\\ozan\\.nuget\\packages\\uipathteamimageactionrotateactivities\\1.0.0.11"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.ImageActionGetSkewActivities",
+        "Version": "1.0.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\ozan\\.nuget\\packages\\uipathteam.imageactiongetskewactivities/1.0.0.2\\lib/ImageActionGetSkewActivities.dll"
+      ],
+      "Path": "C:\\Users\\ozan\\.nuget\\packages\\uipathteam.imageactiongetskewactivities\\1.0.0.2"
     }
   ],
   "Conflicts": [],
@@ -1056,6 +1089,16 @@
           "Item2": "[4.7.1, )"
         }
       ]
+    },
+    "UiPathTeam.ImageActionGetSkewActivities": {
+      "Id": "UiPathTeam.ImageActionGetSkewActivities",
+      "Version": "1.0.0.2",
+      "Dependencies": []
+    },
+    "UiPathTeamImageActionRotateActivities": {
+      "Id": "UiPathTeamImageActionRotateActivities",
+      "Version": "1.0.0.11",
+      "Dependencies": []
     }
   },
   "AllPackages": [
@@ -1792,6 +1835,26 @@
         "C:\\Users\\ozan\\.nuget\\packages\\uipath.wordstonumbers\\1.0.0\\lib\\netstandard2.0\\Numsense.dll"
       ],
       "Path": "C:\\Users\\ozan\\.nuget\\packages\\uipath.wordstonumbers\\1.0.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.ImageActionGetSkewActivities",
+        "Version": "1.0.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\ozan\\.nuget\\packages\\uipathteam.imageactiongetskewactivities\\1.0.0.2\\lib\\ImageActionGetSkewActivities.dll"
+      ],
+      "Path": "C:\\Users\\ozan\\.nuget\\packages\\uipathteam.imageactiongetskewactivities\\1.0.0.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeamImageActionRotateActivities",
+        "Version": "1.0.0.11"
+      },
+      "Assemblies": [
+        "C:\\Users\\ozan\\.nuget\\packages\\uipathteamimageactionrotateactivities\\1.0.0.11\\lib\\ImageActionRotateActivities.dll"
+      ],
+      "Path": "C:\\Users\\ozan\\.nuget\\packages\\uipathteamimageactionrotateactivities\\1.0.0.11"
     }
   ]
 }

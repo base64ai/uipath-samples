@@ -103,7 +103,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <bao:ImageToDataOnline Email="{x:Null}" ImageBase64Data="{x:Null}" ImageFile="{x:Null}" ModelTypes="{x:Null}" Secret="{x:Null}" Server="{x:Null}" DisplayName="Image to data online" Error="[errorMessage]" sap:VirtualizedContainerService.HintSize="855,134" sap2010:WorkflowViewState.IdRef="ImageToDataOnline_1" Result="[ocrResponse]" />
+    <bao:ImageToDataOnline ImageBase64Data="{x:Null}" ModelTypes="{x:Null}" Server="{x:Null}" DisplayName="Image to data online" Email="ozan@base64.ai" Error="[errorMessage]" sap:VirtualizedContainerService.HintSize="855,134" sap2010:WorkflowViewState.IdRef="ImageToDataOnline_1" ImageFile="C:\Users\ozan\Documents\uipath test\ca dl.png" Result="[ocrResponse]" Secret="...enter Base64.ai secret..." />
     <If Condition="[errorMessage = &quot;&quot;]" sap:VirtualizedContainerService.HintSize="855,832" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <Sequence sap:VirtualizedContainerService.HintSize="476,672" sap2010:WorkflowViewState.IdRef="Sequence_4">

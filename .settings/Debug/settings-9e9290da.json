@@ -13,5 +13,7 @@
   "UiPath.System.Activities.MessageBox.TopMost": "True",
   "UiPath.System.Activities.OrchestratorHTTPRequest.RelativeEndpoint": "",
   "UiPath.System.Activities.RetryScope.NumberOfRetries": "3",
-  "UiPath.System.Activities.RetryScope.RetryInterval": "5000"
+  "UiPath.System.Activities.RetryScope.RetryInterval": "5000",
+  "UiPath.System.Activities.InvokeWorkflowFile.LogEntry": "No",
+  "UiPath.System.Activities.InvokeWorkflowFile.LogExit": "No"
 }

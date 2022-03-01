@@ -102,6 +102,7 @@
       <AssemblyReference>ImageActionGetSkewActivities</AssemblyReference>
       <AssemblyReference>Base64ai.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -109,17 +110,17 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Base64.ai with Action Center" sap:VirtualizedContainerService.HintSize="1218,2495" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Base64.ai with Validation Center" sap:VirtualizedContainerService.HintSize="1218,2495" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="base64aiResponse" />
       <Variable x:TypeArguments="x:String" Name="errorMessage" />
       <Variable x:TypeArguments="p2:Document" Name="uiPathOcrDom" />
       <Variable x:TypeArguments="njl:JArray" Name="formattedJson" />
-      <Variable x:TypeArguments="p3:ExtractionResult" Default="[new ExtractionResult()]" Name="validationStationInput" />
+      <Variable x:TypeArguments="p3:ExtractionResult" Name="validationStationInput" />
       <Variable x:TypeArguments="x:String" Name="uiPathOcrText" />
-      <Variable x:TypeArguments="p4:DocumentTaxonomy" Default="[new DocumentTaxonomy()]" Name="taxonomy" />
+      <Variable x:TypeArguments="p4:DocumentTaxonomy" Name="taxonomy" />
       <Variable x:TypeArguments="x:String" Name="documentPath" />
-      <Variable x:TypeArguments="p3:ExtractionResult" Default="[new ExtractionResult()]" Name="validationStationOutput" />
+      <Variable x:TypeArguments="p3:ExtractionResult" Name="validationStationOutput" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -134,7 +135,7 @@
               <OutArgument x:TypeArguments="x:String">[documentPath]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:String">Sample files\New York driver license.png</InArgument>
+              <InArgument x:TypeArguments="x:String">Sample files\Ukraine passport.png</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
         </scg:List>
@@ -152,7 +153,7 @@
       </p:DigitizeDocument.OCREngine>
     </p:DigitizeDocument>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1176,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;UiPath DOM is ready&quot;]" />
-    <bao:DomToDataOffline ImageBase64Data="{x:Null}" ModelTypes="{x:Null}" DisplayName="Base64.ai API Configuration" DomDocument="[UiPathOCRDom]" Email="ozan@base64.ai" Error="[errorMessage]" ExtractionResult="[validationStationInput]" sap:VirtualizedContainerService.HintSize="1176,238" sap2010:WorkflowViewState.IdRef="DomToDataOffline_1" ImageFile="[documentPath]" Result="[base64aiResponse]" Secret="bd067035-7da3-4a63-82cd-33a73d360a01" Server="https://base64.ai/api/scan" Taxonomy="[taxonomy]" />
+    <bao:AutomatedDocumentUnderstandingWithValidationStation DocumentBase64Data="{x:Null}" ModelTypes="{x:Null}" DisplayName="Base64.ai Automated Document Understanding with Validation Center" DocumentFilePath="[documentPath]" DomDocument="[uiPathOcrDom]" Email="ozan@base64.ai" Error="[errorMessage]" ExtractionResult="[validationStationInput]" sap:VirtualizedContainerService.HintSize="1176,238" sap2010:WorkflowViewState.IdRef="AutomatedDocumentUnderstandingWithValidationStation_1" Result="[base64aiResponse]" Secret="bd067035-7ea3-4a63-82cd-33a73d360a01" Server="https://base64.ai/api/scan" Taxonomy="[taxonomy]" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1176,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Base64.ai data extraction has completed&quot;]" />
     <If Condition="[errorMessage = &quot;&quot;]" sap:VirtualizedContainerService.HintSize="1176,1259" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>

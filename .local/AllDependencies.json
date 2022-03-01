@@ -14,7 +14,7 @@
           "lib/net45/ICSharpCode.AvalonEdit.dll": {}
         }
       },
-      "Base64ai.Activities/3.0.85": {
+      "Base64ai.Activities/4.0.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
@@ -2299,7 +2299,7 @@
           "lib/net45/ICSharpCode.AvalonEdit.dll": {}
         }
       },
-      "Base64ai.Activities/3.0.85": {
+      "Base64ai.Activities/4.0.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
@@ -4520,15 +4520,16 @@
         "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.xml"
       ]
     },
-    "Base64ai.Activities/3.0.85": {
-      "sha512": "RvGJ1XeEqaXHhIiN33RY2hO16olFbhdBwcTEQm/VW0E2R1TgBIJiA9i19P0DrT9lQJI4/ITAfgc50P+0VWs4Xg==",
+    "Base64ai.Activities/4.0.0": {
+      "sha512": "pBu1exJwAnM2mVcWSh6TmgGqPho3nWwlmeH8TUy+N6Av3XLW2xSGlHXYDXctN88mhX0XzQhmjMhajSROxu0uFw==",
       "type": "package",
-      "path": "base64ai.activities/3.0.85",
+      "path": "base64ai.activities/4.0.0",
       "files": [
         ".nupkg.metadata",
-        "base64ai.activities.3.0.85.nupkg.sha512",
+        "ReadMe.md",
+        "base64ai.activities.4.0.0.nupkg.sha512",
         "base64ai.activities.nuspec",
-        "iconx100.png",
+        "iconx256.png",
         "lib/Base64ai.Activities.dll"
       ]
     },
@@ -8420,7 +8421,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "Base64ai.Activities >= 3.0.85 <= 3.0.85",
+      "Base64ai.Activities >= 4.0.0 <= 4.0.0",
       "UiPath.IntelligentOCR.Activities >= 5.0.2 <= 5.0.2",
       "UiPath.OCR.Activities >= 3.3.2 <= 3.3.2",
       "UiPath.Platform >= 21.10.0 <= 21.10.0",
@@ -8448,7 +8449,7 @@
           "Base64ai.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[3.0.85, 3.0.85]"
+            "version": "[4.0.0, 4.0.0]"
           },
           "UiPath.IntelligentOCR.Activities": {
             "include": "Runtime",

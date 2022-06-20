@@ -3,15 +3,12 @@
   "description": "https://base64.ai",
   "main": "Online Base64.ai.xaml",
   "dependencies": {
-    "Base64ai.Activities": "4.0.0",
+    "Base64ai.Activities": "4.2.34",
     "UiPath.IntelligentOCR.Activities": "5.0.2",
     "UiPath.OCR.Activities": "3.3.2",
     "UiPath.Platform": "21.10.0",
     "UiPath.System.Activities": "21.10.4",
-    "UiPath.UIAutomation.Activities": "21.10.5",
-    "UiPath.WebAPI.Activities": "1.9.2",
-    "UiPathTeam.ImageActionGetSkewActivities": "1.0.0.2",
-    "UiPathTeam.ImageActionRotateActivities": "1.0.0.11"
+    "UiPath.WebAPI.Activities": "1.9.2"
   },
   "webServices": [],
   "entitiesStores": [],

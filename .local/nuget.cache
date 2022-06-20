@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IZvYhK1ecVyLY1k9/RQLSX1du5fSfRornP2RbEPCeRvqc7hDvrT23+3TQR4Jm3dhIey5fywLUSWaeO8SQ7vVdg==",
+  "dgSpecHash": "gJIHIC8Nuh5NeWu2vBMf5ciaNADRpzqYgfm0NhIv0A9zDC1MLONolwza1pd96t+b0LtVjHm0g5VNMtNg4LGnZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mavia\\Documents\\GitHub\\base64.ai-uipath-samples\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\mavia\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.0.0\\base64ai.activities.4.0.0.nupkg.sha512",
+    "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.2.34\\base64ai.activities.4.2.34.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645\\bitmiracle.docotic.pdf.7.5.11645.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
@@ -70,23 +70,16 @@
     "C:\\Users\\mavia\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\tinycsvparser\\2.5.2\\tinycsvparser.2.5.2.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\uipath\\21.10.34.30369\\uipath.21.10.34.30369.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.3\\uipath.activities.runtimegovernance.1.1.3.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\uipath.cefsharpbundle\\1.6.0\\uipath.cefsharpbundle.1.6.0.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.11.0\\uipath.documentprocessing.contracts.1.11.0.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\uipath.imageprocessing\\21.10.2\\uipath.imageprocessing.21.10.2.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\5.0.2\\uipath.intelligentocr.activities.5.0.2.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.3.2\\uipath.ocr.activities.3.3.2.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.contracts\\2.9.1\\uipath.ocr.contracts.2.9.1.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\21.10.0\\uipath.platform.21.10.0.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\21.10.4\\uipath.system.activities.21.10.4.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\uipath.telemetry.client.1.5.3.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.5\\uipath.uiautomation.activities.21.10.5.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\uipath.vision\\3.1.4\\uipath.vision.3.1.4.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.9.2\\uipath.webapi.activities.1.9.2.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\uipath.wordstonumbers\\1.0.0\\uipath.wordstonumbers.1.0.0.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\uipathteam.imageactiongetskewactivities\\1.0.0.2\\uipathteam.imageactiongetskewactivities.1.0.0.2.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\uipathteam.imageactionrotateactivities\\1.0.0.11\\uipathteam.imageactionrotateactivities.1.0.0.11.nupkg.sha512"
+    "C:\\Users\\mavia\\.nuget\\packages\\uipath.wordstonumbers\\1.0.0\\uipath.wordstonumbers.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

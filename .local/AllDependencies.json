@@ -9230,8 +9230,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mavia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mavia\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
@@ -9239,10 +9238,7 @@
       "projectName": "Base64.ai Samples",
       "projectPath": "C:\\Users\\mavia\\Documents\\GitHub\\base64.ai-uipath-samples\\.local",
       "packagesPath": "C:\\Users\\mavia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mavia\\Documents\\GitHub\\base64.ai-uipath-samples\\.local",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ]
+      "outputPath": "C:\\Users\\mavia\\Documents\\GitHub\\base64.ai-uipath-samples\\.local"
     },
     "frameworks": {
       "net461": {

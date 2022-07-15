@@ -1,15 +1,33 @@
 ![Get Work Done Faster with Base64.ai](https://base64.ai/static/images/thumbnail.png)
 
-# Welcome to the Example Base64.ai UiPath Project
+# Welcome to the Sample Base64.ai UiPath Project
 
-<a href="https://base64.ai/solutions/uipath-rpa">
-<img src="https://base64.ai/static/content/partners/uipath.png" style="height: 4rem; margin: 0 1rem 0 0;" alt="Base64.ai is a UiPath advanced technology partner">
-</a>
-<a href="https://base64.ai/compliance">
-<img src="https://base64.ai/static/content/partners/soc-2-type-1-certified.png" style="height: 4rem; margin: 0 1rem 0 0;" alt="SOC 2 certified">
-<img src="https://base64.ai/static/content/partners/hipaa-certified.png" style="height: 4rem; margin: 0 2rem 0 0;" alt="HIPAA compliant">
-<img src="https://base64.ai/static/content/partners/pbsa.png" style="height: 4rem; margin: 0 1rem 0 0;" alt="PBSA accredited">
-</a>
+<table style="border: none;">
+    <tr>
+        <td colspan="3" style="text-align: center">
+            <a href="https://base64.ai/solutions/uipath-rpa">
+                <img src="https://base64.ai/static/content/partners/uipath.png" style="height: 5rem;" alt="Base64.ai is a UiPath advanced technology partner">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center; width: 33%">
+            <a href="https://base64.ai/compliance">
+                <img src="https://base64.ai/static/content/partners/soc-2-type-1-certified.png" style="height: 4rem;" alt="SOC 2 certified">
+            </a>
+        </td>
+        <td style="text-align: center; width: 33%">
+            <a href="https://base64.ai/compliance">
+                <img src="https://base64.ai/static/content/partners/hipaa-certified.png" style="height: 4rem;" alt="HIPAA compliant">
+            </a>
+        </td>
+        <td style="text-align: center; width: 33%">
+            <a href="https://base64.ai/compliance">
+                <img src="https://base64.ai/static/content/partners/pbsa.png" style="height: 4rem;" alt="PBSA accredited">
+            </a>
+        </td>
+    </tr>
+</table>
 
 ## What is Base64.ai?
 
@@ -24,7 +42,7 @@ in air-gapped offline data centers, and with RPA systems such as UiPath.
 
 ![Automate document processing with Base64.ai](https://i.imgur.com/jboPOr2.gif)
 
-## Using the example project
+## Using the sample project
 
 You may use the UiPath project in this repository to familiarize yourself with Base64.ai Document Understanding AI. You
 may download the UiPath activity from the UiPath marketplace

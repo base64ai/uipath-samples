@@ -30,6 +30,8 @@ You may use the UiPath project in this repository to familiarize yourself with B
 may download the UiPath activity from the UiPath marketplace
 or [Base64.ai Github Repo](https://github.com/orgs/base64ai/packages).
 
+![Base64.ai is integrated with UiPath Validation Station](https://i.imgur.com/vK0VGex.png)
+
 You may also visit our website to
 try [Base64.ai Document Understanding AI Online Demo](https://base64.ai/demo/document-processing). You may use the
 sample files or upload yours own files. The demo is free; no signup or credit card is required.

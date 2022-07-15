@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="OCR_text" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1116,1579" sap2010:WorkflowViewState.IdRef="OCR_text_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bao="clr-namespace:Base64ai.Activities.OCR;assembly=Base64ai.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:p1="http://schemas.uipath.com/workflow/activities/document-processing-contracts/dom" xmlns:p2="http://schemas.uipath.com/workflow/activities/document-processing-contracts/results" xmlns:p3="http://schemas.uipath.com/workflow/activities/document-processing-contracts/taxonomy" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="OCR_text" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1288,2361" sap2010:WorkflowViewState.IdRef="OCR_text_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bao="clr-namespace:Base64ai.Activities.OCR;assembly=Base64ai.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:p1="http://schemas.uipath.com/workflow/activities/document-processing-contracts/dom" xmlns:p2="http://schemas.uipath.com/workflow/activities/document-processing-contracts/results" xmlns:p3="http://schemas.uipath.com/workflow/activities/document-processing-contracts/taxonomy" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="90">
       <x:String>System.Activities</x:String>
@@ -109,7 +109,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Base64.ai with Validation Center" sap:VirtualizedContainerService.HintSize="939,1514" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Base64.ai with Validation Center" sap:VirtualizedContainerService.HintSize="1298,2296" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="base64aiResponse" />
       <Variable x:TypeArguments="x:String" Name="errorMessage" />
@@ -126,7 +126,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MultipleAssign DisplayName="Set Document Path" sap:VirtualizedContainerService.HintSize="897,100" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+    <ui:MultipleAssign DisplayName="Set Document Path" sap:VirtualizedContainerService.HintSize="1256,100" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
       <ui:MultipleAssign.AssignOperations>
         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
@@ -134,26 +134,26 @@
               <OutArgument x:TypeArguments="x:String">[documentPath]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:String">Sample files\US receipt.png</InArgument>
+              <InArgument x:TypeArguments="x:String">Sample files\New York driver license.png</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="897,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Processing image &quot; + documentPath]" />
-    <bao:AutomatedDocumentUnderstandingWithValidationStation DocumentBase64Data="{x:Null}" ModelTypes="{x:Null}" DisplayName="Base64.ai Automated Document Understanding with Validation Center" DocumentFilePath="[documentPath]" DomDocument="[ocrDom]" Email="ozan@base64.ai" Error="[errorMessage]" ExtractionResult="[validationStationInput]" sap:VirtualizedContainerService.HintSize="897,185" sap2010:WorkflowViewState.IdRef="AutomatedDocumentUnderstandingWithValidationStation_1" OcrText="[ocrText]" Result="[base64aiResponse]" Secret="8623609a-d03b-4537-8965-bb6e244bd60c" Server="https://base64.ai/api/scan" Taxonomy="[taxonomy]" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="897,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Base64.ai data extraction has completed&quot;]" />
-    <If Condition="[errorMessage = &quot;&quot;]" sap:VirtualizedContainerService.HintSize="897,795" sap2010:WorkflowViewState.IdRef="If_2">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1256,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Processing image &quot; + documentPath]" />
+    <bao:AutomatedDocumentUnderstandingWithValidationStation DocumentBase64Data="{x:Null}" ModelTypes="{x:Null}" DisplayName="Base64.ai Automated Document Understanding with Validation Center" DocumentFilePath="[documentPath]" DomDocument="[ocrDom]" Email="ozan@base64.ai" Error="[errorMessage]" ExtractionResult="[validationStationInput]" sap:VirtualizedContainerService.HintSize="1256,185" sap2010:WorkflowViewState.IdRef="AutomatedDocumentUnderstandingWithValidationStation_1" OcrText="[ocrText]" Result="[base64aiResponse]" Secret="1d04f36b-c32a-4a8e-ac0e-2d4c09ed6a11" Server="https://base64.ai/api/scan" Taxonomy="[taxonomy]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1256,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Base64.ai data extraction has completed&quot;]" />
+    <If Condition="[errorMessage = &quot;&quot;]" sap:VirtualizedContainerService.HintSize="1256,1577" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
-        <Sequence sap:VirtualizedContainerService.HintSize="476,637" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence sap:VirtualizedContainerService.HintSize="835,1419" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:DeserializeJsonArray DisplayName="Deserialize JSON Array" sap:VirtualizedContainerService.HintSize="434,59" sap2010:WorkflowViewState.IdRef="DeserializeJsonArray_2" JsonArray="[formattedJson]" JsonString="[base64aiResponse]" />
-          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Trace" Message="[&quot;Launching the UiPath Validation Station&quot;]" />
-          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="434,315" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+          <ui:DeserializeJsonArray DisplayName="Deserialize JSON Array" sap:VirtualizedContainerService.HintSize="793,59" sap2010:WorkflowViewState.IdRef="DeserializeJsonArray_2" JsonArray="[formattedJson]" JsonString="[base64aiResponse]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="793,91" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Trace" Message="[&quot;Launching the UiPath Validation Station&quot;]" />
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="793,1097" sap2010:WorkflowViewState.IdRef="TryCatch_1">
             <TryCatch.Try>
               <Sequence sap:VirtualizedContainerService.HintSize="755,870" sap2010:WorkflowViewState.IdRef="Sequence_7">
                 <sap:WorkflowViewStateService.ViewState>
@@ -174,10 +174,10 @@
               </Sequence>
             </TryCatch.Try>
             <TryCatch.Catches>
-              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,153" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="759,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>

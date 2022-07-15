@@ -3,6 +3,7 @@
 # Welcome to the Example Base64.ai UiPath Project
 
 <a href="https://base64.ai/compliance">
+<img src="https://base64.ai/static/content/partners/uipath.png" style="height: 100px; margin: 0 1rem 3rem 0;" alt="Base64.ai is a UiPath advanced technology partner"><br/>
 <img src="https://base64.ai/static/content/partners/soc-2-type-1-certified.png" style="height: 100px; margin: 0 1rem 0 0;" alt="SOC 2 certified">
 <img src="https://base64.ai/static/content/partners/hipaa-certified.png" style="height: 100px; margin: 0 2rem 0 0;" alt="HIPAA compliant">
 <img src="https://base64.ai/static/content/partners/pbsa.png" style="height: 100px; margin: 0 1rem 0 0;" alt="PBSA accredited">
@@ -15,7 +16,9 @@ photos, and signatures from all types of documents, including IDs, driver licens
 invoices, forms, and hundreds of other document types worldwide. In seconds, Base64.ai discerns the document's type,
 extracts the relevant information, verifies the results, and integrates them into the customer's systems while saving
 thousands of employee hours per month for the customer by automating document processing. Base64.ai works in the cloud,
-in air-gapped offline data centers, and with RPA systems such as UiPath.
+in air-gapped offline data centers, and with RPA systems such as UiPath. 
+
+#### Base64.ai is UiPath's Advanced Technology Partner in AI-powered document understanding.
 
 ![Automate document processing with Base64.ai](https://i.imgur.com/jboPOr2.gif)
 

@@ -2,18 +2,6 @@
   "Packages": [
     {
       "Package": {
-        "Id": "Base64ai.Activities",
-        "Version": "4.2.65"
-      },
-      "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.2.65\\lib/Base64ai.Activities.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.14.0\\lib/net461/UiPath.DocumentProcessing.Contracts.dll"
-      ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.2.65"
-    },
-    {
-      "Package": {
         "Id": "UiPath.IntelligentOCR.Activities",
         "Version": "6.0.1"
       },
@@ -219,6 +207,18 @@
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib/net461/UiPath.Web.dll"
       ],
       "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1"
+    },
+    {
+      "Package": {
+        "Id": "Base64ai.Activities",
+        "Version": "4.4.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.4\\lib/Base64ai.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.14.0\\lib/net461/UiPath.DocumentProcessing.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.4"
     }
   ],
   "Conflicts": [],
@@ -230,7 +230,7 @@
     },
     "Base64ai.Activities": {
       "Id": "Base64ai.Activities",
-      "Version": "4.2.65",
+      "Version": "4.4.4",
       "Dependencies": [
         {
           "Item1": "UiPath.DocumentProcessing.Contracts",
@@ -1285,12 +1285,12 @@
     {
       "Package": {
         "Id": "Base64ai.Activities",
-        "Version": "4.2.65"
+        "Version": "4.4.4"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.2.65\\lib\\Base64ai.Activities.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.4\\lib\\Base64ai.Activities.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.2.65"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.4"
     },
     {
       "Package": {

@@ -3,7 +3,7 @@
   "description": "https://base64.ai",
   "main": "Online Base64.ai.xaml",
   "dependencies": {
-    "Base64ai.Activities": "4.2.65",
+    "Base64ai.Activities": "4.4.4",
     "UiPath.IntelligentOCR.Activities": "6.0.1",
     "UiPath.OCR.Activities": "3.6.2",
     "UiPath.Platform": "22.4.1",

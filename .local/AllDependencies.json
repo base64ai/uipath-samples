@@ -9236,9 +9236,9 @@
     "restore": {
       "projectUniqueName": "Base64.ai Samples",
       "projectName": "Base64.ai Samples",
-      "projectPath": "C:\\Users\\mavia\\Documents\\GitHub\\base64.ai-uipath-samples\\.local",
+      "projectPath": "C:\\Users\\mavia\\Documents\\GitHub\\uipath-samples\\.local",
       "packagesPath": "C:\\Users\\mavia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mavia\\Documents\\GitHub\\base64.ai-uipath-samples\\.local"
+      "outputPath": "C:\\Users\\mavia\\Documents\\GitHub\\uipath-samples\\.local"
     },
     "frameworks": {
       "net461": {

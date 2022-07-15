@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "OhLys7tjB4wHO/yu1jFsRMnhONV+eiDSnph6GwVVLI6StgIoxd7x7AnIv1JXhLbRSHBtml6nv+LSy1wbBn6QHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mavia\\Documents\\GitHub\\base64.ai-uipath-samples\\.local\\",
+  "projectFilePath": "C:\\Users\\mavia\\Documents\\GitHub\\uipath-samples\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\mavia\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.4\\base64ai.activities.4.4.4.nupkg.sha512",

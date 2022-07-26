@@ -126,7 +126,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MultipleAssign DisplayName="Set Document Path" sap:VirtualizedContainerService.HintSize="1256,100" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+    <ui:MultipleAssign DisplayName="Set Document Path" sap:VirtualizedContainerService.HintSize="431,100" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
       <ui:MultipleAssign.AssignOperations>
         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
@@ -134,7 +134,7 @@
               <OutArgument x:TypeArguments="x:String">[documentPath]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:String">Sample files\New York driver license.png</InArgument>
+              <InArgument x:TypeArguments="x:String">Sample files\US vehicle insurance.png</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
         </scg:List>

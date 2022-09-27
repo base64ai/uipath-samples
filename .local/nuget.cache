@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NKfNzduZ4vRv8Q6KKNH4lMySuJbQ3Tl+/U4e3p4yGdsC1L/aU+O6H6vXx8uPGD7xRiWNsLA+CkeqDQneeuoAdQ==",
+  "dgSpecHash": "vl+jeFuC4OyYZ7WbE9bAguBv1EaVGBsOlkPcf+FrvasRkRGXRmNlj7uDX8SkPZrmrX4mXvvX7h5RBSNYhSqUyA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mavia\\Documents\\GitHub\\uipath-samples\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\mavia\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.45\\base64ai.activities.4.4.45.nupkg.sha512",
+    "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.8.0\\base64ai.activities.4.8.0.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645\\bitmiracle.docotic.pdf.7.5.11645.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",

@@ -211,10 +211,10 @@
     {
       "Package": {
         "Id": "Base64ai.Activities",
-        "Version": "4.4.45"
+        "Version": "4.8.0"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.45\\lib/net461/Base64ai.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.8.0\\lib/net461/Base64ai.Activities.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\csvhelper\\16.0.0\\lib/net45/CsvHelper.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
@@ -266,7 +266,7 @@
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.System.Activities.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.45"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.8.0"
     }
   ],
   "Conflicts": [],
@@ -278,7 +278,7 @@
     },
     "Base64ai.Activities": {
       "Id": "Base64ai.Activities",
-      "Version": "4.4.45",
+      "Version": "4.8.0",
       "Dependencies": [
         {
           "Item1": "MimeMapping",
@@ -294,7 +294,7 @@
         },
         {
           "Item1": "UiPath.System.Activities",
-          "Item2": "[22.4.1, )"
+          "Item2": "[21.4.0, )"
         }
       ]
     },
@@ -1346,12 +1346,12 @@
     {
       "Package": {
         "Id": "Base64ai.Activities",
-        "Version": "4.4.45"
+        "Version": "4.8.0"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.45\\lib\\net461\\Base64ai.Activities.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.8.0\\lib\\net461\\Base64ai.Activities.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.4.45"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.8.0"
     },
     {
       "Package": {

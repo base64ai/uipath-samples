@@ -14,13 +14,13 @@
           "lib/net45/ICSharpCode.AvalonEdit.dll": {}
         }
       },
-      "Base64ai.Activities/4.4.45": {
+      "Base64ai.Activities/4.8.0": {
         "type": "package",
         "dependencies": {
           "MimeMapping": "1.0.1.37",
           "Newtonsoft.Json": "11.0.2",
           "UiPath.DocumentProcessing.Contracts": "1.14.0",
-          "UiPath.System.Activities": "22.4.1"
+          "UiPath.System.Activities": "21.4.0"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -2062,13 +2062,13 @@
           "lib/net45/ICSharpCode.AvalonEdit.dll": {}
         }
       },
-      "Base64ai.Activities/4.4.45": {
+      "Base64ai.Activities/4.8.0": {
         "type": "package",
         "dependencies": {
           "MimeMapping": "1.0.1.37",
           "Newtonsoft.Json": "11.0.2",
           "UiPath.DocumentProcessing.Contracts": "1.14.0",
-          "UiPath.System.Activities": "22.4.1"
+          "UiPath.System.Activities": "21.4.0"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -4046,14 +4046,14 @@
         "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.xml"
       ]
     },
-    "Base64ai.Activities/4.4.45": {
-      "sha512": "zkOJdduvI+kBJ+kfB+U2Dy7mFkd1P3KvFMEdWNa8ps4kVL5xoELuNqjYi2qHJuZTaEFbJhrNS14gZ2HmfVw1bw==",
+    "Base64ai.Activities/4.8.0": {
+      "sha512": "p9ZWdNMw/ZJxOi8Lqxpm0x1AA0jaiZcEoa5+oPPcYdaPe+oMuQS0eF+Y09SMgvExYGt0k4XhI9/QVoEXdOCzNw==",
       "type": "package",
-      "path": "base64ai.activities/4.4.45",
+      "path": "base64ai.activities/4.8.0",
       "files": [
         ".nupkg.metadata",
         "ReadMe.md",
-        "base64ai.activities.4.4.45.nupkg.sha512",
+        "base64ai.activities.4.8.0.nupkg.sha512",
         "base64ai.activities.nuspec",
         "iconx256.png",
         "lib/net461/Base64ai.Activities.dll",
@@ -9264,7 +9264,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "Base64ai.Activities >= 4.4.45 <= 4.4.45",
+      "Base64ai.Activities >= 4.8.0 <= 4.8.0",
       "UiPath.IntelligentOCR.Activities >= 6.0.1 <= 6.0.1",
       "UiPath.OCR.Activities >= 3.6.2 <= 3.6.2",
       "UiPath.Platform >= 22.4.1 <= 22.4.1",
@@ -9289,7 +9289,7 @@
           "Base64ai.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[4.4.45, 4.4.45]"
+            "version": "[4.8.0, 4.8.0]"
           },
           "UiPath.IntelligentOCR.Activities": {
             "include": "Runtime",

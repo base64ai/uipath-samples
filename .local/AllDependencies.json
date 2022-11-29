@@ -14,13 +14,13 @@
           "lib/net45/ICSharpCode.AvalonEdit.dll": {}
         }
       },
-      "Base64ai.Activities/4.8.1": {
+      "Base64ai.Activities/4.8.2": {
         "type": "package",
         "dependencies": {
           "MimeMapping": "1.0.1.37",
-          "Newtonsoft.Json": "11.0.2",
+          "Newtonsoft.Json": "13.0.1",
           "UiPath.DocumentProcessing.Contracts": "1.14.0",
-          "UiPath.System.Activities": "21.4.0"
+          "UiPath.System.Activities": "22.4.1"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -632,7 +632,7 @@
           "lib/netstandard2.0/MimeMapping.dll": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
           "lib/net45/_._": {}
@@ -2062,13 +2062,13 @@
           "lib/net45/ICSharpCode.AvalonEdit.dll": {}
         }
       },
-      "Base64ai.Activities/4.8.1": {
+      "Base64ai.Activities/4.8.2": {
         "type": "package",
         "dependencies": {
           "MimeMapping": "1.0.1.37",
-          "Newtonsoft.Json": "11.0.2",
+          "Newtonsoft.Json": "13.0.1",
           "UiPath.DocumentProcessing.Contracts": "1.14.0",
-          "UiPath.System.Activities": "21.4.0"
+          "UiPath.System.Activities": "22.4.1"
         },
         "compile": {
           "lib/net461/_._": {}
@@ -2680,7 +2680,7 @@
           "lib/netstandard2.0/MimeMapping.dll": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
           "lib/net45/_._": {}
@@ -4046,14 +4046,14 @@
         "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.xml"
       ]
     },
-    "Base64ai.Activities/4.8.1": {
-      "sha512": "+rYq73vuMkK9vK4zHAD5sQYzIr6Qk5HT3jQMAcPTeLDi5Y7XjYNIJ2kG/yL7myHRZG1ttsCce3dqYiZPOvB2uA==",
+    "Base64ai.Activities/4.8.2": {
+      "sha512": "8envVKtXU+MMFTMplA/sCvXanAUcnCu07bVGrKiLXt8H4pQAnqmFAfEcv0knWQUEjes/Ci5aqcnbvCGomUTynw==",
       "type": "package",
-      "path": "base64ai.activities/4.8.1",
+      "path": "base64ai.activities/4.8.2",
       "files": [
         ".nupkg.metadata",
         "ReadMe.md",
-        "base64ai.activities.4.8.1.nupkg.sha512",
+        "base64ai.activities.4.8.2.nupkg.sha512",
         "base64ai.activities.nuspec",
         "iconx256.png",
         "lib/net461/Base64ai.Activities.dll",
@@ -4933,10 +4933,10 @@
         "mimemapping.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/13.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4955,12 +4955,9 @@
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "NLog/4.5.11": {
@@ -9264,7 +9261,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "Base64ai.Activities >= 4.8.1 <= 4.8.1",
+      "Base64ai.Activities >= 4.8.2 <= 4.8.2",
       "UiPath.IntelligentOCR.Activities >= 6.0.1 <= 6.0.1",
       "UiPath.OCR.Activities >= 3.6.2 <= 3.6.2",
       "UiPath.Platform >= 22.4.1 <= 22.4.1",
@@ -9289,7 +9286,7 @@
           "Base64ai.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[4.8.1, 4.8.1]"
+            "version": "[4.8.2, 4.8.2]"
           },
           "UiPath.IntelligentOCR.Activities": {
             "include": "Runtime",

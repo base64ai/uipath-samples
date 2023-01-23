@@ -24,6 +24,7 @@
       <x:String>System.Collections.ObjectModel</x:String>
       <x:String>UiPath.DocumentProcessing.Contracts.Taxonomy</x:String>
       <x:String>UiPath.IntelligentOCR.Activities.ValidationStation</x:String>
+      <x:String>UiPath.Core</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -73,7 +74,6 @@
       <AssemblyReference>ImageActionGetSkewActivities</AssemblyReference>
       <AssemblyReference>Base64ai.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -106,7 +106,7 @@
               <OutArgument x:TypeArguments="x:String">[documentPath]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:String">Sample files\US vehicle insurance.png</InArgument>
+              <InArgument x:TypeArguments="x:String">Sample files\US receipt.png</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
         </scg:List>

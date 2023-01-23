@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "En53tHy+iB2amQpx1pVXomztUDVrh7psXAimhYhHmaHZCp1VkJ/TOQCWWQPsLz1OOBnhH+yM98adtV+VhPFjOA==",
+  "dgSpecHash": "f7yt39GD6tNWBa0zXuusuEVA4B+rjAvL4jrDjePawPUxC/TuUiGQzvdjilVwSpgb644UDbPX8OhSrRuB31xbyg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mavia\\Documents\\GitHub\\uipath-samples\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\mavia\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.8.1\\base64ai.activities.4.8.1.nupkg.sha512",
+    "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\4.8.2\\base64ai.activities.4.8.2.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645\\bitmiracle.docotic.pdf.7.5.11645.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\bitmiracle.libtiff.net.2.4.649.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
@@ -40,7 +40,7 @@
     "C:\\Users\\mavia\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\microsoft.visualbasic.10.3.0.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.3\\microsoft.xaml.behaviors.wpf.1.1.3.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\mimemapping\\1.0.1.37\\mimemapping.1.0.1.37.nupkg.sha512",
-    "C:\\Users\\mavia\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\mavia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\nlog\\4.5.11\\nlog.4.5.11.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\ntextcat\\0.3.65\\ntextcat.0.3.65.nupkg.sha512",
     "C:\\Users\\mavia\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",

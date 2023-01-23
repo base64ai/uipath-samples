@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="OCR_text" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1079,764" sap2010:WorkflowViewState.IdRef="OCR_text_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bao="clr-namespace:Base64ai.Activities.OCR;assembly=Base64ai.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="OCR_text" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="744,768.8" sap2010:WorkflowViewState.IdRef="OCR_text_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bao="clr-namespace:Base64ai.Activities.OCR;assembly=Base64ai.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -89,10 +89,9 @@
       <AssemblyReference>UiPath.OmniPage.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Document Understanding with Base64.ai" sap:VirtualizedContainerService.HintSize="755,699" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Document Understanding with Base64.ai" sap:VirtualizedContainerService.HintSize="754.4,704" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="base64aiResponse" />
       <Variable x:TypeArguments="x:String" Name="errorMessage" />
@@ -103,7 +102,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MultipleAssign DisplayName="Set Document Path" sap:VirtualizedContainerService.HintSize="713,100" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+    <ui:MultipleAssign DisplayName="Set Document Path" sap:VirtualizedContainerService.HintSize="712.8,101.6" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
       <ui:MultipleAssign.AssignOperations>
         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -117,7 +116,7 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <bao:AutomatedDocumentUnderstanding DocumentBase64Data="{x:Null}" ModelTypes="{x:Null}" DisplayName="Base64.ai Automated Document Understanding" DocumentFilePath="[documentPath]" Email="ozan@base64.ai" Error="[errorMessage]" sap:VirtualizedContainerService.HintSize="713,185" sap2010:WorkflowViewState.IdRef="AutomatedDocumentUnderstanding_1" Result="[base64aiResponse]" Secret="1d04f36b-c32a-4a8e-ac0e-2d4c09ed6a11" Server="https://base64.ai/api/scan" />
+    <bao:AutomatedDocumentUnderstanding DocumentBase64Data="{x:Null}" ModelTypes="{x:Null}" DisplayName="Base64.ai Automated Document Understanding" DocumentFilePath="[documentPath]" Email="ozan@base64.ai" Error="[errorMessage]" sap:VirtualizedContainerService.HintSize="712.8,188" sap2010:WorkflowViewState.IdRef="AutomatedDocumentUnderstanding_1" Result="[base64aiResponse]" Secret="6beba6b1-d34f-4451-9590-1479d21f167e" Server="https://base64.ai/api/scan" />
     <If Condition="[errorMessage = &quot;&quot;]" DisplayName="Check for Errors" sap:VirtualizedContainerService.HintSize="713,242" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Caption="Result (Ctrl+C to copy)" DisplayName="Success Result Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[base64aiResponse.toString.Substring(0, 10000)]" />

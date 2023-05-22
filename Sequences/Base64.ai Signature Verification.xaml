@@ -1,52 +1,26 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Base64.ai Demo" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="784,964.8" sap2010:WorkflowViewState.IdRef="Base64.ai Demo_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:baf="clr-namespace:Base64ai.Activities.Signature;assembly=Base64ai.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Base64_ai_Demo" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="784,964.8" sap2010:WorkflowViewState.IdRef="Base64.ai Demo_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bas="clr-namespace:Base64ai.Activities.Signature;assembly=Base64ai.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
-      <x:String>System.Activities.Expressions</x:String>
-      <x:String>System.Activities.Validation</x:String>
-      <x:String>System.Activities.XamlIntegration</x:String>
       <x:String>Microsoft.VisualBasic</x:String>
-      <x:String>Microsoft.VisualBasic.Activities</x:String>
       <x:String>System</x:String>
       <x:String>System.Collections</x:String>
       <x:String>System.Collections.Generic</x:String>
-      <x:String>System.Data</x:String>
-      <x:String>System.Diagnostics</x:String>
-      <x:String>System.Drawing</x:String>
-      <x:String>System.IO</x:String>
       <x:String>System.Linq</x:String>
-      <x:String>System.Net.Mail</x:String>
-      <x:String>System.Xml</x:String>
-      <x:String>System.Xml.Linq</x:String>
-      <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
-      <x:String>System.Windows.Markup</x:String>
-      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
-      <x:String>OCRActivities</x:String>
-      <x:String>UiPath.DocumentProcessing.Contracts.Dom</x:String>
-      <x:String>System.Runtime.Serialization</x:String>
-      <x:String>UiPath.IntelligentOCR.Activities.Digitization</x:String>
       <x:String>System.Activities.DynamicUpdate</x:String>
-      <x:String>UiPath.Shared.Activities</x:String>
-      <x:String>UiPath.Vision.OCR</x:String>
-      <x:String>UiPath.OCR.Contracts</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>System.Runtime.InteropServices</x:String>
-      <x:String>UiPath.OmniPage.Activities</x:String>
-      <x:String>UiPath.OCR.Contracts.Activities</x:String>
-      <x:String>Newtonsoft.Json.Serialization</x:String>
-      <x:String>UiPath.OCR.Activities</x:String>
       <x:String>Newtonsoft.Json.Linq</x:String>
       <x:String>Newtonsoft.Json</x:String>
       <x:String>System.Dynamic</x:String>
       <x:String>System.ComponentModel</x:String>
       <x:String>System.Collections.Specialized</x:String>
       <x:String>UiPath.Web.Activities</x:String>
-      <x:String>Base64ai.Activities.OCR</x:String>
-      <x:String>Base64ai.Activities.FacialRecognition</x:String>
       <x:String>Base64ai.Activities</x:String>
       <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.Core</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -94,7 +68,6 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>Base64ai.Activities</AssemblyReference>
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -128,7 +101,7 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <baf:SignatureVerificationActivity DocumentBase64Data="{x:Null}" QueryDocumentBase64Data="{x:Null}" DisplayName="Base64.ai Signature Verification" DocumentFilePath="[documentPath]" Email="ozan@base64.ai" Error="[errorMessage]" sap:VirtualizedContainerService.HintSize="752.8,188" sap2010:WorkflowViewState.IdRef="SignatureVerificationActivity_1" QueryDocumentFilePath="[documentPath]" Result="[base64aiResponse]" Secret="6beba6b1-d34f-4451-9590-1479d21f167e" Server="https://base64.ai/api/signature/verify" />
+    <bas:SignatureVerificationActivity DocumentBase64Data="{x:Null}" QueryDocumentBase64Data="{x:Null}" DisplayName="Base64.ai Signature Verification" DocumentFilePath="[documentPath]" Email="your-email" Error="[errorMessage]" sap:VirtualizedContainerService.HintSize="752.8,188" sap2010:WorkflowViewState.IdRef="SignatureVerificationActivity_1" QueryDocumentFilePath="[documentPath]" Result="[base64aiResponse]" Secret="your-api-key" Server="https://base64.ai/api/signature" />
     <If Condition="[errorMessage = &quot;&quot;]" DisplayName="Check for Errors" sap:VirtualizedContainerService.HintSize="752.8,437.6" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <Sequence sap:VirtualizedContainerService.HintSize="375.2,278.4" sap2010:WorkflowViewState.IdRef="Sequence_4">

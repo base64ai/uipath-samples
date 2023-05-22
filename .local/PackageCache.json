@@ -3,21 +3,34 @@
     {
       "Package": {
         "Id": "UiPath.IntelligentOCR.Activities",
-        "Version": "6.0.1"
+        "Version": "6.9.1"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645\\lib/net46/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.8.14512-dev\\lib/net40/BitMiracle.Docotic.Pdf.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.libtiff.net\\2.4.649\\lib/net40/BitMiracle.LibTiff.NET.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\fsharp.core\\4.7.1\\lib/net45/FSharp.Core.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/net461/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0\\lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib/net461/Microsoft.IdentityModel.Logging.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib/net461/Microsoft.IdentityModel.Tokens.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.3\\lib/net45/Microsoft.Xaml.Behaviors.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\nlog\\4.5.11\\lib/net45/NLog.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\ntextcat\\0.3.65\\lib/netstandard2.0/NTextCat.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\polly\\7.1.0\\lib/netstandard2.0/Polly.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.buffers\\4.5.1\\lib/net461/System.Buffers.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib/net461/System.Collections.Immutable.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\system.drawing.common\\5.0.2\\lib/net461/System.Drawing.Common.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\system.drawing.common\\5.0.3\\lib/net461/System.Drawing.Common.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\lib/net45/System.Drawing.Primitives.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\lib/net461/System.IdentityModel.Tokens.Jwt.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.io.compression\\4.3.0\\runtimes/win/lib/net46/System.IO.Compression.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.memory\\4.5.4\\lib/net461/System.Memory.dll",
@@ -30,6 +43,7 @@
         "C:\\Users\\mavia\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\lib/net46/System.Security.Cryptography.Primitives.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\tinycsvparser\\2.5.2\\lib/net45/TinyCsvParser.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.cefsharpbundle\\1.8.0\\lib/net452/CefSharp.BrowserSubprocess.Core.dll",
@@ -49,8 +63,8 @@
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.cefsharpbundle\\1.8.0\\lib/net452/vcruntime140.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.cefsharpbundle\\1.8.0\\lib/net452/vk_swiftshader.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.cefsharpbundle\\1.8.0\\lib/net452/vulkan-1.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.14.0\\lib/net461/UiPath.DocumentProcessing.Contracts.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\2.0.0\\lib/net461/UiPath.DocumentUnderstanding.Digitizer.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.21.1\\lib/net461/UiPath.DocumentProcessing.Contracts.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\3.2.0\\lib/net461/UiPath.DocumentUnderstanding.Digitizer.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.emgucvbundle\\1.0.0\\lib/net461/Emgu.CV.Bitmap.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.emgucvbundle\\1.0.0\\lib/net461/Emgu.CV.Platform.NetStandard.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.emgucvbundle\\1.0.0\\lib/net461/concrt140.dll",
@@ -61,42 +75,47 @@
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.emgucvbundle\\1.0.0\\lib/net461/msvcp140_atomic_wait.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.emgucvbundle\\1.0.0\\lib/net461/msvcp140_codecvt_ids.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.emgucvbundle\\1.0.0\\lib/net461/vcruntime140.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.DocumentUnderstanding.Contracts.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.DocumentUnderstanding.Persistence.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.IntelligentOCR.Activities.Design.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.IntelligentOCR.Activities.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.IntelligentOCR.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.ClassificationStation.Host.Local.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.ClassificationStation.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.Data.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.DocumentClassification.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.Host.Local.Infrastructure.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.ImageProcessing.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.Language.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.Localization.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.OutOfProcessUi.Common.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.PDF.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.PositionBasedExtraction.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.TableProcessing.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.TaxonomyManager.Host.Local.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.TaxonomyManager.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.Telemetry.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.Utils.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.ValidationStation.Host.Local.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.ValidationStation.Integration.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.ValidationStation.ValueParsing.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.ValidationStation.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib/net461/UiPath.SmartData.WPF.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.contracts\\2.11.0\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.DocumentUnderstanding.Contracts.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.DocumentUnderstanding.Persistence.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.IntelligentOCR.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.IntelligentOCR.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.IntelligentOCR.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.BusinessRules.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.ClassificationStation.Host.Local.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.ClassificationStation.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.Data.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.DocumentClassification.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.Host.Local.Infrastructure.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.ImageProcessing.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.Language.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.Localization.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.OutOfProcessUi.Common.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.PDF.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.PositionBasedExtraction.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.TableProcessing.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.TaxonomyManager.Host.Local.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.TaxonomyManager.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.Telemetry.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.Utils.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.ValidationStation.Host.Local.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.ValidationStation.Integration.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.ValidationStation.ValueParsing.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.ValidationStation.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib/net461/UiPath.SmartData.WPF.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\23.4.1\\lib/net461/UiPath.Platform.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.wordstonumbers\\1.0.0\\lib/netstandard2.0/Numsense.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1"
     },
     {
       "Package": {
         "Id": "UiPath.OCR.Activities",
-        "Version": "3.6.2"
+        "Version": "3.15.1"
       },
       "Assemblies": [
         "C:\\Users\\mavia\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/net461/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
@@ -112,31 +131,31 @@
         "C:\\Users\\mavia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib/net46/System.Numerics.Vectors.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.6.2\\lib/net461/UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.6.2\\lib/net461/UiPath.OCR.Activities.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.6.2\\lib/net461/UiPath.OCR.Core.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.contracts\\2.11.0\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\23.4.1\\lib/net461/UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.6.2"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1"
     },
     {
       "Package": {
         "Id": "UiPath.Platform",
-        "Version": "22.4.1"
+        "Version": "23.4.1"
       },
       "Assemblies": [
         "C:\\Users\\mavia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\23.4.1\\lib/net461/UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\22.4.1"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\23.4.1"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "22.4.1"
+        "Version": "22.10.5"
       },
       "Assemblies": [
         "C:\\Users\\mavia\\.nuget\\packages\\csvhelper\\16.0.0\\lib/net45/CsvHelper.dll",
@@ -182,18 +201,18 @@
         "C:\\Users\\mavia\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.System.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\23.4.1\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib/net461/UiPath.System.Activities.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5"
     },
     {
       "Package": {
         "Id": "UiPath.WebAPI.Activities",
-        "Version": "1.11.1"
+        "Version": "1.16.2"
       },
       "Assemblies": [
         "C:\\Users\\mavia\\.nuget\\packages\\avalonedit\\6.0.1\\lib/net45/ICSharpCode.AvalonEdit.dll",
@@ -201,20 +220,21 @@
         "C:\\Users\\mavia\\.nuget\\packages\\restsharp\\106.15.0\\lib/net452/RestSharp.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib/net461/UiPath.Web.Activities.Design.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib/net461/UiPath.Web.Activities.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib/net461/UiPath.Web.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\23.4.1\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.16.2\\lib/net461/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.16.2\\lib/net461/UiPath.Web.Activities.RulesLibrary.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.runtime\\1.16.2\\lib/net461/UiPath.Web.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.runtime\\1.16.2\\lib/net461/UiPath.Web.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.16.2"
     },
     {
       "Package": {
         "Id": "Base64ai.Activities",
-        "Version": "5.0.0"
+        "Version": "5.0.8"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\5.0.0\\lib/net461/Base64ai.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\5.0.8\\lib/net461/Base64ai.Activities.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\csvhelper\\16.0.0\\lib/net45/CsvHelper.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
@@ -259,14 +279,14 @@
         "C:\\Users\\mavia\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.14.0\\lib/net461/UiPath.DocumentProcessing.Contracts.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.System.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.21.1\\lib/net461/UiPath.DocumentProcessing.Contracts.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\23.4.1\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib/net461/UiPath.System.Activities.dll",
         "C:\\Users\\mavia\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\5.0.0"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\5.0.8"
     }
   ],
   "Conflicts": [],
@@ -278,7 +298,7 @@
     },
     "Base64ai.Activities": {
       "Id": "Base64ai.Activities",
-      "Version": "5.0.0",
+      "Version": "5.0.8",
       "Dependencies": [
         {
           "Item1": "MimeMapping",
@@ -300,7 +320,7 @@
     },
     "BitMiracle.Docotic.Pdf": {
       "Id": "BitMiracle.Docotic.Pdf",
-      "Version": "7.5.11645",
+      "Version": "8.8.14512-dev",
       "Dependencies": []
     },
     "BitMiracle.LibTiff.NET": {
@@ -565,6 +585,34 @@
       "Version": "4.7.0",
       "Dependencies": []
     },
+    "Microsoft.Extensions.Caching.Abstractions": {
+      "Id": "Microsoft.Extensions.Caching.Abstractions",
+      "Version": "2.2.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Primitives",
+          "Item2": "[2.2.0, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Caching.Memory": {
+      "Id": "Microsoft.Extensions.Caching.Memory",
+      "Version": "2.2.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Caching.Abstractions",
+          "Item2": "[2.2.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "Item2": "[2.2.0, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Options",
+          "Item2": "[2.2.0, )"
+        }
+      ]
+    },
     "Microsoft.Extensions.Configuration": {
       "Id": "Microsoft.Extensions.Configuration",
       "Version": "3.1.6",
@@ -673,6 +721,31 @@
         }
       ]
     },
+    "Microsoft.IdentityModel.JsonWebTokens": {
+      "Id": "Microsoft.IdentityModel.JsonWebTokens",
+      "Version": "6.12.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.Tokens",
+          "Item2": "[6.12.2, )"
+        }
+      ]
+    },
+    "Microsoft.IdentityModel.Logging": {
+      "Id": "Microsoft.IdentityModel.Logging",
+      "Version": "6.12.2",
+      "Dependencies": []
+    },
+    "Microsoft.IdentityModel.Tokens": {
+      "Id": "Microsoft.IdentityModel.Tokens",
+      "Version": "6.12.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.Logging",
+          "Item2": "[6.12.2, )"
+        }
+      ]
+    },
     "Microsoft.Rest.ClientRuntime": {
       "Id": "Microsoft.Rest.ClientRuntime",
       "Version": "2.3.21",
@@ -764,13 +837,27 @@
     },
     "System.Drawing.Common": {
       "Id": "System.Drawing.Common",
-      "Version": "5.0.2",
+      "Version": "5.0.3",
       "Dependencies": []
     },
     "System.Drawing.Primitives": {
       "Id": "System.Drawing.Primitives",
       "Version": "4.3.0",
       "Dependencies": []
+    },
+    "System.IdentityModel.Tokens.Jwt": {
+      "Id": "System.IdentityModel.Tokens.Jwt",
+      "Version": "6.12.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.IdentityModel.JsonWebTokens",
+          "Item2": "[6.12.2, )"
+        },
+        {
+          "Item1": "Microsoft.IdentityModel.Tokens",
+          "Item2": "[6.12.2, )"
+        }
+      ]
     },
     "System.IO.Abstractions": {
       "Id": "System.IO.Abstractions",
@@ -997,25 +1084,25 @@
     },
     "UiPath.DocumentProcessing.Contracts": {
       "Id": "UiPath.DocumentProcessing.Contracts",
-      "Version": "1.14.0",
+      "Version": "1.21.1",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
+          "Item2": "[13.0.1, )"
         }
       ]
     },
     "UiPath.DocumentUnderstanding.Digitizer": {
       "Id": "UiPath.DocumentUnderstanding.Digitizer",
-      "Version": "2.0.0",
+      "Version": "3.2.0",
       "Dependencies": [
         {
           "Item1": "BitMiracle.Docotic.Pdf",
-          "Item2": "[7.5.11645, )"
+          "Item2": "[8.8.14512-dev, )"
         },
         {
           "Item1": "System.Drawing.Common",
-          "Item2": "[5.0.2, )"
+          "Item2": "[5.0.3, )"
         },
         {
           "Item1": "System.Drawing.Primitives",
@@ -1035,7 +1122,7 @@
         },
         {
           "Item1": "UiPath.DocumentProcessing.Contracts",
-          "Item2": "[1.14.0, )"
+          "Item2": "[1.21.0, )"
         }
       ]
     },
@@ -1046,12 +1133,8 @@
     },
     "UiPath.IntelligentOCR.Activities": {
       "Id": "UiPath.IntelligentOCR.Activities",
-      "Version": "6.0.1",
+      "Version": "6.9.1",
       "Dependencies": [
-        {
-          "Item1": "BitMiracle.Docotic.Pdf",
-          "Item2": "[7.5.11645, )"
-        },
         {
           "Item1": "BitMiracle.LibTiff.NET",
           "Item2": "[2.4.649, )"
@@ -1065,6 +1148,10 @@
           "Item2": "[4.7.0, )"
         },
         {
+          "Item1": "Microsoft.Extensions.Caching.Memory",
+          "Item2": "[2.2.0, )"
+        },
+        {
           "Item1": "Microsoft.Rest.ClientRuntime",
           "Item2": "[2.3.21, )"
         },
@@ -1074,7 +1161,7 @@
         },
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
+          "Item2": "[13.0.1, )"
         },
         {
           "Item1": "NTextCat",
@@ -1090,11 +1177,15 @@
         },
         {
           "Item1": "System.Drawing.Common",
-          "Item2": "[5.0.2, )"
+          "Item2": "[5.0.3, )"
         },
         {
           "Item1": "System.Drawing.Primitives",
           "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "System.IdentityModel.Tokens.Jwt",
+          "Item2": "[6.12.2, )"
         },
         {
           "Item1": "System.IO.Abstractions",
@@ -1117,6 +1208,10 @@
           "Item2": "[4.3.0, )"
         },
         {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.4, )"
+        },
+        {
           "Item1": "System.ValueTuple",
           "Item2": "[4.5.0, )"
         },
@@ -1130,19 +1225,23 @@
         },
         {
           "Item1": "UiPath.DocumentProcessing.Contracts",
-          "Item2": "[1.14.0, )"
+          "Item2": "[1.21.1, )"
         },
         {
           "Item1": "UiPath.DocumentUnderstanding.Digitizer",
-          "Item2": "[2.0.0, )"
+          "Item2": "[3.2.0, )"
         },
         {
           "Item1": "UiPath.EmguCVBundle",
           "Item2": "[1.0.0, )"
         },
         {
+          "Item1": "UiPath.OCR.Activities",
+          "Item2": "[3.15.1, )"
+        },
+        {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.11.0, )"
+          "Item2": "[2.14.0, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
@@ -1156,7 +1255,7 @@
     },
     "UiPath.OCR.Activities": {
       "Id": "UiPath.OCR.Activities",
-      "Version": "3.6.2",
+      "Version": "3.15.1",
       "Dependencies": [
         {
           "Item1": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
@@ -1164,7 +1263,7 @@
         },
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
+          "Item2": "[13.0.1, )"
         },
         {
           "Item1": "NLog",
@@ -1184,26 +1283,26 @@
         },
         {
           "Item1": "UiPath.OCR.Contracts",
-          "Item2": "[2.11.0, )"
+          "Item2": "[2.14.0, )"
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[22.4.1, )"
+          "Item2": "[23.4.0, )"
         }
       ]
     },
     "UiPath.OCR.Contracts": {
       "Id": "UiPath.OCR.Contracts",
-      "Version": "2.11.0",
+      "Version": "2.14.0",
       "Dependencies": []
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
-      "Version": "22.4.1",
+      "Version": "23.4.1",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
+          "Item2": "[13.0.1, )"
         },
         {
           "Item1": "System.IO.Abstractions",
@@ -1217,7 +1316,7 @@
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "22.4.1",
+      "Version": "22.10.5",
       "Dependencies": [
         {
           "Item1": "CsvHelper",
@@ -1257,7 +1356,7 @@
         },
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
+          "Item2": "[13.0.1, )"
         },
         {
           "Item1": "SharpZipLib",
@@ -1269,7 +1368,7 @@
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[22.4.1, )"
+          "Item2": "[22.10.2, )"
         },
         {
           "Item1": "UiPath.Telemetry.Client",
@@ -1297,8 +1396,12 @@
     },
     "UiPath.WebAPI.Activities": {
       "Id": "UiPath.WebAPI.Activities",
-      "Version": "1.11.1",
+      "Version": "1.16.2",
       "Dependencies": [
+        {
+          "Item1": "UiPath.WebAPI.Runtime",
+          "Item2": "[1.16.2, )"
+        },
         {
           "Item1": "AvalonEdit",
           "Item2": "[6.0.1, )"
@@ -1309,7 +1412,7 @@
         },
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.2, )"
+          "Item2": "[13.0.1, )"
         },
         {
           "Item1": "RestSharp",
@@ -1317,7 +1420,29 @@
         },
         {
           "Item1": "UiPath.Platform",
-          "Item2": "[21.12.0-preview, )"
+          "Item2": "[23.4.1, )"
+        }
+      ]
+    },
+    "UiPath.WebAPI.Runtime": {
+      "Id": "UiPath.WebAPI.Runtime",
+      "Version": "1.16.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.CSharp",
+          "Item2": "[4.7.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        },
+        {
+          "Item1": "RestSharp",
+          "Item2": "[106.15.0, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[23.4.1, )"
         }
       ]
     },
@@ -1346,22 +1471,22 @@
     {
       "Package": {
         "Id": "Base64ai.Activities",
-        "Version": "5.0.0"
+        "Version": "5.0.8"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\5.0.0\\lib\\net461\\Base64ai.Activities.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\5.0.8\\lib\\net461\\Base64ai.Activities.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\5.0.0"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\base64ai.activities\\5.0.8"
     },
     {
       "Package": {
         "Id": "BitMiracle.Docotic.Pdf",
-        "Version": "7.5.11645"
+        "Version": "8.8.14512-dev"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645\\lib\\net46\\BitMiracle.Docotic.Pdf.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.8.14512-dev\\lib\\net40\\BitMiracle.Docotic.Pdf.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\bitmiracle.docotic.pdf\\8.8.14512-dev"
     },
     {
       "Package": {
@@ -1553,6 +1678,26 @@
     },
     {
       "Package": {
+        "Id": "Microsoft.Extensions.Caching.Abstractions",
+        "Version": "2.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0\\lib\\netstandard2.0\\Microsoft.Extensions.Caching.Abstractions.dll"
+      ],
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.2.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Caching.Memory",
+        "Version": "2.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0\\lib\\netstandard2.0\\Microsoft.Extensions.Caching.Memory.dll"
+      ],
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.2.0"
+    },
+    {
+      "Package": {
         "Id": "Microsoft.Extensions.Configuration",
         "Version": "3.1.6"
       },
@@ -1640,6 +1785,36 @@
         "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Primitives.dll"
       ],
       "Path": "C:\\Users\\mavia\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.IdentityModel.JsonWebTokens",
+        "Version": "6.12.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2\\lib\\net461\\Microsoft.IdentityModel.JsonWebTokens.dll"
+      ],
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.12.2"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.IdentityModel.Logging",
+        "Version": "6.12.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2\\lib\\net461\\Microsoft.IdentityModel.Logging.dll"
+      ],
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\microsoft.identitymodel.logging\\6.12.2"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.IdentityModel.Tokens",
+        "Version": "6.12.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\mavia\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2\\lib\\net461\\Microsoft.IdentityModel.Tokens.dll"
+      ],
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.12.2"
     },
     {
       "Package": {
@@ -1784,12 +1959,12 @@
     {
       "Package": {
         "Id": "System.Drawing.Common",
-        "Version": "5.0.2"
+        "Version": "5.0.3"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\system.drawing.common\\5.0.2\\lib\\net461\\System.Drawing.Common.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\system.drawing.common\\5.0.3\\lib\\net461\\System.Drawing.Common.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\system.drawing.common\\5.0.2"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\system.drawing.common\\5.0.3"
     },
     {
       "Package": {
@@ -1800,6 +1975,16 @@
         "C:\\Users\\mavia\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\lib\\net45\\System.Drawing.Primitives.dll"
       ],
       "Path": "C:\\Users\\mavia\\.nuget\\packages\\system.drawing.primitives\\4.3.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IdentityModel.Tokens.Jwt",
+        "Version": "6.12.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\mavia\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2\\lib\\net461\\System.IdentityModel.Tokens.Jwt.dll"
+      ],
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.12.2"
     },
     {
       "Package": {
@@ -2047,22 +2232,22 @@
     {
       "Package": {
         "Id": "UiPath.DocumentProcessing.Contracts",
-        "Version": "1.14.0"
+        "Version": "1.21.1"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.14.0\\lib\\net461\\UiPath.DocumentProcessing.Contracts.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.21.1\\lib\\net461\\UiPath.DocumentProcessing.Contracts.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.14.0"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentprocessing.contracts\\1.21.1"
     },
     {
       "Package": {
         "Id": "UiPath.DocumentUnderstanding.Digitizer",
-        "Version": "2.0.0"
+        "Version": "3.2.0"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\2.0.0\\lib\\net461\\UiPath.DocumentUnderstanding.Digitizer.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\3.2.0\\lib\\net461\\UiPath.DocumentUnderstanding.Digitizer.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\2.0.0"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.documentunderstanding.digitizer\\3.2.0"
     },
     {
       "Package": {
@@ -2086,83 +2271,84 @@
     {
       "Package": {
         "Id": "UiPath.IntelligentOCR.Activities",
-        "Version": "6.0.1"
+        "Version": "6.9.1"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.DocumentUnderstanding.Contracts.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.DocumentUnderstanding.Persistence.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.IntelligentOCR.Activities.Design.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.IntelligentOCR.Activities.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.IntelligentOCR.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.ClassificationStation.Host.Local.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.ClassificationStation.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.Data.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.DocumentClassification.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.Host.Local.Infrastructure.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.ImageProcessing.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.Language.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.Localization.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.OutOfProcessUi.Common.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.OutOfProcessUi.Host.exe",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.PDF.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.PositionBasedExtraction.TemplateManager.exe",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.PositionBasedExtraction.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.TableProcessing.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.TaxonomyManager.Host.Local.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.TaxonomyManager.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.Telemetry.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.Utils.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.ValidationStation.Host.Local.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.ValidationStation.Integration.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.ValidationStation.ValueParsing.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.ValidationStation.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1\\lib\\net461\\UiPath.SmartData.WPF.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.DocumentUnderstanding.Contracts.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.DocumentUnderstanding.Persistence.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.IntelligentOCR.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.IntelligentOCR.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.IntelligentOCR.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.BusinessRules.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.ClassificationStation.Host.Local.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.ClassificationStation.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.Data.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.DocumentClassification.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.Host.Local.Infrastructure.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.ImageProcessing.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.Language.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.Localization.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.OutOfProcessUi.Common.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.OutOfProcessUi.Host.exe",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.PDF.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.PositionBasedExtraction.TemplateManager.exe",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.PositionBasedExtraction.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.TableProcessing.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.TaxonomyManager.Host.Local.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.TaxonomyManager.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.Telemetry.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.Utils.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.ValidationStation.Host.Local.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.ValidationStation.Integration.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.ValidationStation.ValueParsing.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.ValidationStation.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1\\lib\\net461\\UiPath.SmartData.WPF.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.0.1"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.intelligentocr.activities\\6.9.1"
     },
     {
       "Package": {
         "Id": "UiPath.OCR.Activities",
-        "Version": "3.6.2"
+        "Version": "3.15.1"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.6.2\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.6.2\\lib\\net461\\UiPath.OCR.Activities.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.6.2\\lib\\net461\\UiPath.OCR.Core.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\lib\\net461\\UiPath.OCR.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1\\lib\\net461\\UiPath.OCR.Core.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.6.2"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.activities\\3.15.1"
     },
     {
       "Package": {
         "Id": "UiPath.OCR.Contracts",
-        "Version": "2.11.0"
+        "Version": "2.14.0"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.contracts\\2.11.0\\lib\\net461\\UiPath.OCR.Contracts.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0\\lib\\net461\\UiPath.OCR.Contracts.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.contracts\\2.11.0"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.ocr.contracts\\2.14.0"
     },
     {
       "Package": {
         "Id": "UiPath.Platform",
-        "Version": "22.4.1"
+        "Version": "23.4.1"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\22.4.1\\lib\\net461\\UiPath.Platform.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\23.4.1\\lib\\net461\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\22.4.1"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.platform\\23.4.1"
     },
     {
       "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "22.4.1"
+        "Version": "22.10.5"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib\\net461\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib\\net461\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib\\net461\\UiPath.System.Activities.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib\\net461\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib\\net461\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5\\lib\\net461\\UiPath.System.Activities.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.4.1"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.system.activities\\22.10.5"
     },
     {
       "Package": {
@@ -2177,14 +2363,24 @@
     {
       "Package": {
         "Id": "UiPath.WebAPI.Activities",
-        "Version": "1.11.1"
+        "Version": "1.16.2"
       },
       "Assemblies": [
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib\\net461\\UiPath.Web.Activities.Design.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib\\net461\\UiPath.Web.Activities.dll",
-        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib\\net461\\UiPath.Web.dll"
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.16.2\\lib\\net461\\UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.16.2\\lib\\net461\\UiPath.Web.Activities.RulesLibrary.dll"
       ],
-      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.11.1"
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.activities\\1.16.2"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Runtime",
+        "Version": "1.16.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.runtime\\1.16.2\\lib\\net461\\UiPath.Web.Activities.dll",
+        "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.runtime\\1.16.2\\lib\\net461\\UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\mavia\\.nuget\\packages\\uipath.webapi.runtime\\1.16.2"
     },
     {
       "Package": {

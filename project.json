@@ -1,14 +1,15 @@
 {
   "name": "Base64.ai Samples",
+  "projectId": "7aeb2be2-bd33-4db8-84b8-623c41b3a7c9",
   "description": "https://base64.ai",
   "main": "Online Base64.ai.xaml",
   "dependencies": {
-    "Base64ai.Activities": "5.0.8",
-    "UiPath.IntelligentOCR.Activities": "6.9.1",
-    "UiPath.OCR.Activities": "3.15.1",
-    "UiPath.Platform": "23.4.1",
+    "Base64ai.Activities": "5.1.0",
+    "UiPath.IntelligentOCR.Activities": "6.24.0",
+    "UiPath.OCR.Activities": "3.22.0",
+    "UiPath.Platform": "24.12.0",
     "UiPath.System.Activities": "22.10.5",
-    "UiPath.WebAPI.Activities": "1.16.2"
+    "UiPath.WebAPI.Activities": "1.21.1"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -22,6 +23,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -29,7 +31,8 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": false
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -42,11 +45,11 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows"
 }

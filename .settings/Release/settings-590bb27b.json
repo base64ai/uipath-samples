@@ -1,4 +1,4 @@
-{
+﻿{
   "DefaultOCREngine": "UiPath.OCR.Activities.UiPathScreenOCR, UiPath.OCR.Activities",
   "UiPath.OCR.Activities.UiPathScreenOCR.Endpoint": "https://ocr.uipath.com/",
   "UiPath.OCR.Activities.UiPathScreenOCR.ApiKey": "",
@@ -21,5 +21,8 @@
   "UiPath.UiAutomation.Activities.MicrosoftAzureComputerVisionOCR.Scale": "1",
   "UiPath.UiAutomation.Activities.MicrosoftAzureComputerVisionOCR.Language": "AutoDetect",
   "UiPath.OCR.Activities.CjkOCR.Endpoint": "",
-  "UiPath.OCR.Activities.CjkOCR.ApiKey": ""
+  "UiPath.OCR.Activities.CjkOCR.ApiKey": "",
+  "UiPath.OCR.Activities.UiPathScreenOCR.UseAccents": "False",
+  "UiPath.OCR.Activities.ExtendedLanguagesOCR.Endpoint": "https://du.uipath.com/extended-ocr",
+  "UiPath.OCR.Activities.ExtendedLanguagesOCR.ApiKey": ""
 }

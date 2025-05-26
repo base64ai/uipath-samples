@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/Base64.ai DU with Validation Center (recommended).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "base64aiResponse&Sequence_3",
+        "errorMessage&Sequence_3",
+        "ocrDom&Sequence_3",
+        "formattedJson&Sequence_3",
+        "validationStationInput&Sequence_3",
+        "ocrText&Sequence_3",
+        "taxonomy&Sequence_3",
+        "documentPath&Sequence_3",
+        "validationStationOutput&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

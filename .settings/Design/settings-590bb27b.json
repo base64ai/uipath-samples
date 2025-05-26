@@ -1,0 +1,3 @@
+﻿{
+  "DefaultAppCardOCREngine": "UiPath.OCR.Activities.UiPathDocumentOCR, UiPath.OCR.Activities"
+}

@@ -102,7 +102,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Base64.ai with Validation Center" sap:VirtualizedContainerService.HintSize="1289,2459" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Base64.ai with Validation Center" sap:VirtualizedContainerService.HintSize="454,2459" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="base64aiResponse" />
       <Variable x:TypeArguments="x:String" Name="errorMessage" />
@@ -134,7 +134,7 @@
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="454,124" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Processing image &quot; + documentPath]" />
-    <bad:DocumentUnderstandingWithValidationStationActivity DocumentBase64Data="{x:Null}" FlowID="{x:Null}" ModelTypes="{x:Null}" Password="{x:Null}" RedactFields="{x:Null}" ConvertTextToSpeech="False" DetectBarcodes="False" DetectBlur="False" DetectCheckboxes="False" DetectFaces="False" DetectGlares="False" DetectInkSignatures="False" DetectQrCodes="False" DetectWatermarks="False" DisplayName="Base64.ai Automated Document Understanding with Validation Center" DocumentFilePath="[documentPath]" DomDocument="[ocrDom]" Email="alperen@base64.ai" EnableSemanticProcessing="False" Error="[errorMessage]" ExtractionResult="[validationStationInput]" sap:VirtualizedContainerService.HintSize="454,218" sap2010:WorkflowViewState.IdRef="DocumentUnderstandingActivityWithValidationStation_1" OcrText="[ocrText]" ReadDigitalSignatures="False" RecognizeEntities="False" RedactFaces="False" RedactSignatures="False" Result="[base64aiResponse]" Secret="acf3af88-7c4e-421c-8058-0241e90c9c96" Server="https://base64.ai/api/scan" Taxonomy="[taxonomy]" UseSegmentation="False" VerifyDocumentShape="False" />
+    <bad:DocumentUnderstandingWithValidationStationActivity DocumentBase64Data="{x:Null}" FlowID="{x:Null}" ModelTypes="{x:Null}" Password="{x:Null}" RedactFields="{x:Null}" ConvertTextToSpeech="False" DetectBarcodes="False" DetectBlur="False" DetectCheckboxes="False" DetectFaces="False" DetectGlares="False" DetectInkSignatures="False" DetectQrCodes="False" DetectWatermarks="False" DisplayName="Base64.ai Automated Document Understanding with Validation Center" DocumentFilePath="[documentPath]" DomDocument="[ocrDom]" Email="your-email" EnableSemanticProcessing="False" Error="[errorMessage]" ExtractionResult="[validationStationInput]" sap:VirtualizedContainerService.HintSize="454,218" sap2010:WorkflowViewState.IdRef="DocumentUnderstandingActivityWithValidationStation_1" OcrText="[ocrText]" ReadDigitalSignatures="False" RecognizeEntities="False" RedactFaces="False" RedactSignatures="False" Result="[base64aiResponse]" Secret="your-api-key" Server="https://base64.ai/api/scan" Taxonomy="[taxonomy]" UseSegmentation="False" VerifyDocumentShape="False" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="454,124" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Base64.ai data extraction has completed&quot;]" />
     <If Condition="[errorMessage = &quot;&quot;]" sap:VirtualizedContainerService.HintSize="454,1837" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>

@@ -9,20 +9,58 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Sequences/Base64.ai DU with Validation Center (recommended).xaml",
+      "Path": "Sequences/Base64.ai Document Understanding with Validation Center.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "base64aiResponse&Sequence_3",
-        "errorMessage&Sequence_3",
-        "ocrDom&Sequence_3",
-        "formattedJson&Sequence_3",
-        "validationStationInput&Sequence_3",
-        "ocrText&Sequence_3",
-        "taxonomy&Sequence_3",
-        "documentPath&Sequence_3",
-        "validationStationOutput&Sequence_3"
-      ],
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/Base64.ai Facial Recognition.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/Base64.ai Document Understanding & OCR.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/Base64.ai Document PII Redaction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/Base64.ai Facial Verification.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/Base64.ai Signature Recognition.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequences/Base64.ai Signature Verification.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     }

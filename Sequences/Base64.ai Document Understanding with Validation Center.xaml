@@ -102,7 +102,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Base64.ai with Validation Center" sap:VirtualizedContainerService.HintSize="454,2459" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Base64.ai with Validation Center" sap:VirtualizedContainerService.HintSize="1446,2502.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="base64aiResponse" />
       <Variable x:TypeArguments="x:String" Name="errorMessage" />
@@ -119,7 +119,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MultipleAssign DisplayName="Set Document Path" sap:VirtualizedContainerService.HintSize="454,133" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+    <ui:MultipleAssign DisplayName="Set Document Path" sap:VirtualizedContainerService.HintSize="454,132.66666666666666" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
       <ui:MultipleAssign.AssignOperations>
         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
@@ -133,32 +133,32 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="454,124" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Processing image &quot; + documentPath]" />
-    <bad:DocumentUnderstandingWithValidationStationActivity DocumentBase64Data="{x:Null}" FlowID="{x:Null}" ModelTypes="{x:Null}" Password="{x:Null}" RedactFields="{x:Null}" ConvertTextToSpeech="False" DetectBarcodes="False" DetectBlur="False" DetectCheckboxes="False" DetectFaces="False" DetectGlares="False" DetectInkSignatures="False" DetectQrCodes="False" DetectWatermarks="False" DisplayName="Base64.ai Automated Document Understanding with Validation Center" DocumentFilePath="[documentPath]" DomDocument="[ocrDom]" Email="your-email" EnableSemanticProcessing="False" Error="[errorMessage]" ExtractionResult="[validationStationInput]" sap:VirtualizedContainerService.HintSize="454,218" sap2010:WorkflowViewState.IdRef="DocumentUnderstandingActivityWithValidationStation_1" OcrText="[ocrText]" ReadDigitalSignatures="False" RecognizeEntities="False" RedactFaces="False" RedactSignatures="False" Result="[base64aiResponse]" Secret="your-api-key" Server="https://base64.ai/api/scan" Taxonomy="[taxonomy]" UseSegmentation="False" VerifyDocumentShape="False" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="454,124" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Base64.ai data extraction has completed&quot;]" />
-    <If Condition="[errorMessage = &quot;&quot;]" sap:VirtualizedContainerService.HintSize="454,1837" sap2010:WorkflowViewState.IdRef="If_2">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="454,128" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Processing image &quot; + documentPath]" />
+    <bad:DocumentUnderstandingWithValidationStationActivity DocumentBase64Data="{x:Null}" FlowID="{x:Null}" ModelTypes="{x:Null}" Password="{x:Null}" RedactFields="{x:Null}" ConvertTextToSpeech="False" DetectBarcodes="False" DetectBlur="False" DetectCheckboxes="False" DetectFaces="False" DetectGlares="False" DetectInkSignatures="False" DetectQrCodes="False" DetectWatermarks="False" DisplayName="Base64.ai Automated Document Understanding with Validation Center" DocumentFilePath="[documentPath]" DomDocument="[ocrDom]" Email="your-email" EnableSemanticProcessing="False" Error="[errorMessage]" ExtractionResult="[validationStationInput]" sap:VirtualizedContainerService.HintSize="335.3333333333333,191.33333333333334" sap2010:WorkflowViewState.IdRef="DocumentUnderstandingActivityWithValidationStation_1" OcrText="[ocrText]" ReadDigitalSignatures="False" RecognizeEntities="False" RedactFaces="False" RedactSignatures="False" Result="[base64aiResponse]" Secret="your-api-key" Server="https://base64.ai/api/scan" Taxonomy="[taxonomy]" UseSegmentation="False" VerifyDocumentShape="False" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="454,128" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Trace" Message="[&quot;Base64.ai data extraction has completed&quot;]" />
+    <If Condition="[errorMessage = &quot;&quot;]" sap:VirtualizedContainerService.HintSize="454,1868" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452,1540" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="452,1569.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <ui:DeserializeJsonArray DisplayName="Deserialize JSON Array" sap:VirtualizedContainerService.HintSize="418,92" sap2010:WorkflowViewState.IdRef="DeserializeJsonArray_2" JsonArray="[formattedJson]" JsonString="[base64aiResponse]" />
-          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="418,124" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Trace" Message="[&quot;Launching the UiPath Validation Station&quot;]" />
-          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="418,1264" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="418,128" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Trace" Message="[&quot;Launching the UiPath Validation Station&quot;]" />
+          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="418,1289.3333333333333" sap2010:WorkflowViewState.IdRef="TryCatch_1">
             <TryCatch.Try>
-              <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="416,925" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="416,948.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_7">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <p:PresentValidationStation FieldsValidationConfidence="{x:Null}" AutomaticExtractionResults="[validationStationInput]" DisplayMode="Classic" DisplayName="Present Validation Station" DocumentObjectModel="[ocrDom]" DocumentPath="[documentPath]" DocumentText="[ocrText]" EnableRTLControls="False" sap:VirtualizedContainerService.HintSize="382,398" sap2010:WorkflowViewState.IdRef="PresentValidationStation_1" ShowOnlyRelevantPageRange="False" Taxonomy="[taxonomy]" ValidatedExtractionResults="[validationStationOutput]" />
-                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,124" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Trace" Message="[&quot;Completed the UiPath Validation Station&quot;]" />
-                <If Condition="[errorMessage = &quot;&quot;]" DisplayName="Check for Errors" sap:VirtualizedContainerService.HintSize="382,343" sap2010:WorkflowViewState.IdRef="If_1">
+                <p:PresentValidationStation FieldsValidationConfidence="{x:Null}" AutomaticExtractionResults="[validationStationInput]" DisplayMode="Classic" DisplayName="Present Validation Station" DocumentObjectModel="[ocrDom]" DocumentPath="[documentPath]" DocumentText="[ocrText]" EnableRTLControls="False" sap:VirtualizedContainerService.HintSize="382,414" sap2010:WorkflowViewState.IdRef="PresentValidationStation_1" ShowOnlyRelevantPageRange="False" Taxonomy="[taxonomy]" ValidatedExtractionResults="[validationStationOutput]" />
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,128" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Trace" Message="[&quot;Completed the UiPath Validation Station&quot;]" />
+                <If Condition="[errorMessage = &quot;&quot;]" DisplayName="Check for Errors" sap:VirtualizedContainerService.HintSize="382,346.6666666666667" sap2010:WorkflowViewState.IdRef="If_1">
                   <If.Then>
-                    <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Caption="Result (Ctrl+C to copy)" DisplayName="Success Result Box" sap:VirtualizedContainerService.HintSize="334,85" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[validationStationOutput.Serialize().Substring(0, 1000)]" />
+                    <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Caption="Result (Ctrl+C to copy)" DisplayName="Success Result Box" sap:VirtualizedContainerService.HintSize="334,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[validationStationOutput.Serialize().Substring(0, 1000)]" />
                   </If.Then>
                   <If.Else>
                     <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Caption="Error occurred" DisplayName="Error Message Box" sap:VirtualizedContainerService.HintSize="334,85" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[errorMessage]" />
@@ -178,7 +178,7 @@
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="s:Exception" Name="vse" />
                   </ActivityAction.Argument>
-                  <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Caption="Error occurred" DisplayName="Error Message Box" sap:VirtualizedContainerService.HintSize="416,85" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[vse.Message]" />
+                  <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Caption="Error occurred" DisplayName="Error Message Box" sap:VirtualizedContainerService.HintSize="416,86.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[vse.Message]" />
                 </ActivityAction>
               </Catch>
             </TryCatch.Catches>

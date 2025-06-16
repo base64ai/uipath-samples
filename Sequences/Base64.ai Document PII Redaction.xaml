@@ -1,9 +1,8 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Base64_ai_Demo" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="784,964.8" sap2010:WorkflowViewState.IdRef="Base64.ai Demo_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:baf="clr-namespace:Base64ai.Activities.Facial;assembly=Base64ai.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Base64_ai_Demo" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="784,1097.6" sap2010:WorkflowViewState.IdRef="Base64.ai Demo_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:bad="clr-namespace:Base64ai.Activities.DocumentUnderstanding;assembly=Base64ai.Activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>Base64ai.Activities</x:String>
-      <x:String>Base64ai.Activities.Facial</x:String>
-      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Base64ai.Activities.DocumentUnderstanding</x:String>
       <x:String>Newtonsoft.Json</x:String>
       <x:String>Newtonsoft.Json.Linq</x:String>
       <x:String>System</x:String>
@@ -34,7 +33,6 @@
       <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
-      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
@@ -42,6 +40,7 @@
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
       <AssemblyReference>System.Drawing</AssemblyReference>
       <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Management.Automation</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.ObjectModel</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
@@ -74,11 +73,11 @@
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Signature Recognition with Base64.ai" sap:VirtualizedContainerService.HintSize="1446,878" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Document Understanding with PII Redaction with Base64.ai" sap:VirtualizedContainerService.HintSize="1446,982" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="base64aiResponse" />
       <Variable x:TypeArguments="x:String" Name="errorMessage" />
@@ -97,18 +96,19 @@
               <OutArgument x:TypeArguments="x:String">[documentPath]</OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:String">Sample files\Ukraine passport.png</InArgument>
+              <InArgument x:TypeArguments="x:String">Sample files\Turkish ID.png</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <baf:FacialRecognitionActivity DocumentBase64Data="{x:Null}" DisplayName="Base64.ai Facial Recognition" DocumentFilePath="[documentPath]" Email="your-email" Error="[errorMessage]" sap:VirtualizedContainerService.HintSize="334,191.33333333333334" sap2010:WorkflowViewState.IdRef="FacialRecognitionActivity_1" Result="[base64aiResponse]" Secret="your-api-key" Server="https://base64.ai/api/face" />
-    <If Condition="[errorMessage = &quot;&quot;]" DisplayName="Check for Errors" sap:VirtualizedContainerService.HintSize="431.3333333333333,499.3333333333333" sap2010:WorkflowViewState.IdRef="If_1">
+    <bad:DocumentUnderstandingWithPIIRedactionActivity DocumentBase64Data="{x:Null}" FlowID="{x:Null}" ModelTypes="{x:Null}" Password="{x:Null}" ConvertTextToSpeech="False" DetectBarcodes="False" DetectBlur="False" DetectCheckboxes="False" DetectFaces="False" DetectGlares="False" DetectInkSignatures="False" DetectQrCodes="False" DetectWatermarks="False" DisplayName="Base64.ai Document Understanding with PII Redaction" DocumentFilePath="[documentPath]" Email="your-email" EnableSemanticProcessing="False" Error="[errorMessage]" sap:VirtualizedContainerService.HintSize="431.3333333333333,223.33333333333334" sap2010:WorkflowViewState.IdRef="DocumentUnderstandingWithPIIRedactionActivity_1" ReadDigitalSignatures="False" RecognizeEntities="False" RedactFaces="True" RedactFields="name,date" RedactSignatures="True" Result="[base64aiResponse]" Secret="your-api-key" Server="https://base64.ai/api/scan" UseSegmentation="False" VerifyDocumentShape="False" />
+    <If Condition="[errorMessage = &quot;&quot;]" DisplayName="Check for Errors" sap:VirtualizedContainerService.HintSize="431.3333333333333,603.3333333333334" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,261.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,365.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <Sequence.Variables>
             <Variable x:TypeArguments="njl:JArray" Name="formattedJson" />
+            <Variable x:TypeArguments="njl:JObject" Name="formattedJsonResult" />
           </Sequence.Variables>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -116,7 +116,8 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
           <ui:DeserializeJsonArray DisplayName="Deserialize JSON Array" sap:VirtualizedContainerService.HintSize="382,92" sap2010:WorkflowViewState.IdRef="DeserializeJsonArray_1" JsonArray="[formattedJson]" JsonString="[base64aiResponse]" />
-          <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Caption="Result (Ctrl+C to copy)" DisplayName="Success Result Box" sap:VirtualizedContainerService.HintSize="382,109.33333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[formattedJson.Count.ToString + &quot; face(s).&quot; + vbCrLf + vbCrLf + &quot;API result: &quot; + base64aiResponse.toString.Substring(0, 10000)]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,128" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[formattedJson(0)(&quot;redactedImage&quot;).ToString]" />
+          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;Document is redacted. See the console output for more info.&quot;]" />
         </Sequence>
       </If.Then>
       <If.Else>

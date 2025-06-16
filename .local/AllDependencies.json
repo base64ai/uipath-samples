@@ -18,10 +18,10 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
-      "Base64ai.Activities/5.1.0": {
+      "Base64ai.Activities/5.2.0": {
         "type": "package",
         "dependencies": {
-          "MimeMapping": "1.0.1.37",
+          "MimeMapping": "3.1.0",
           "Newtonsoft.Json": "13.0.1",
           "UiPath.DocumentProcessing.Contracts": "1.14.0",
           "UiPath.System.Activities": "22.10.5"
@@ -1252,15 +1252,15 @@
           "lib/net6.0/MimeDetective.Definitions.Exhaustive.dll": {}
         }
       },
-      "MimeMapping/1.0.1.37": {
+      "MimeMapping/3.1.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/_._": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/MimeMapping.dll": {
+          "lib/netstandard2.0/MimeMapping.dll": {
             "related": ".xml"
           }
         }
@@ -5223,10 +5223,10 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
-      "Base64ai.Activities/5.1.0": {
+      "Base64ai.Activities/5.2.0": {
         "type": "package",
         "dependencies": {
-          "MimeMapping": "1.0.1.37",
+          "MimeMapping": "3.1.0",
           "Newtonsoft.Json": "13.0.1",
           "UiPath.DocumentProcessing.Contracts": "1.14.0",
           "UiPath.System.Activities": "22.10.5"
@@ -6288,15 +6288,15 @@
           "lib/net6.0/MimeDetective.Definitions.Exhaustive.dll": {}
         }
       },
-      "MimeMapping/1.0.1.37": {
+      "MimeMapping/3.1.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/_._": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/MimeMapping.dll": {
+          "lib/netstandard2.0/MimeMapping.dll": {
             "related": ".xml"
           }
         }
@@ -10261,14 +10261,14 @@
         "lib/netcoreapp3.1/ICSharpCode.AvalonEdit.xml"
       ]
     },
-    "Base64ai.Activities/5.1.0": {
-      "sha512": "dghObtVwoSqRTjFQ7CO9D1PrKtYmoNeozGzFniDQDTWDgDDbBlWxejP4OBNm5q7xpvpud0fLZJQn3LWpwQ30GA==",
+    "Base64ai.Activities/5.2.0": {
+      "sha512": "mKaGTqU7FWJm0M+P4pXVJkf/Kx4quF9kqRmCTFlzWnIv4lTmAMK13LHw5SBJ9grGv57Tjl/g+z3176Cz7XaBww==",
       "type": "package",
-      "path": "base64ai.activities/5.1.0",
+      "path": "base64ai.activities/5.2.0",
       "files": [
         ".nupkg.metadata",
         "ReadMe.md",
-        "base64ai.activities.5.1.0.nupkg.sha512",
+        "base64ai.activities.5.2.0.nupkg.sha512",
         "base64ai.activities.nuspec",
         "iconx256.png",
         "lib/net6.0/Base64ai.Activities.dll"
@@ -11932,20 +11932,19 @@
         "noun_data search_4033516.png"
       ]
     },
-    "MimeMapping/1.0.1.37": {
-      "sha512": "KyvZaEsIOlrbs3+uyqylnDy3QepY0iyVHEsYpefs7OGCBCfWnW7XuQ55hATazdkcav50GbX26TmhBO4lC05pjQ==",
+    "MimeMapping/3.1.0": {
+      "sha512": "lzlkORXotto0rOGxhXceYOjgXLCeJAFDLRiQki0EiXtWFH6yFwWuW9vzwvjDCdkXZu39z5+I03ntlNBMoQKH3g==",
       "type": "package",
-      "path": "mimemapping/1.0.1.37",
+      "path": "mimemapping/3.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netstandard1.1/MimeMapping.dll",
-        "lib/netstandard1.1/MimeMapping.xml",
+        "README.md",
+        "lib/net462/MimeMapping.dll",
+        "lib/net462/MimeMapping.xml",
         "lib/netstandard2.0/MimeMapping.dll",
         "lib/netstandard2.0/MimeMapping.xml",
-        "lib/netstandard2.1/MimeMapping.dll",
-        "lib/netstandard2.1/MimeMapping.xml",
-        "mimemapping.1.0.1.37.nupkg.sha512",
+        "mimemapping.3.1.0.nupkg.sha512",
         "mimemapping.nuspec"
       ]
     },
@@ -21722,7 +21721,7 @@
   "projectFileDependencyGroups": {
     "": [],
     "net8.0-windows7.0": [
-      "Base64ai.Activities >= 5.1.0 <= 5.1.0",
+      "Base64ai.Activities >= 5.2.0 <= 5.2.0",
       "UiPath.IntelligentOCR.Activities >= 6.24.0 <= 6.24.0",
       "UiPath.OCR.Activities >= 3.22.0 <= 3.22.0",
       "UiPath.Platform >= 24.12.0 <= 24.12.0",
@@ -21751,7 +21750,7 @@
           "Base64ai.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[5.1.0, 5.1.0]"
+            "version": "[5.2.0, 5.2.0]"
           },
           "UiPath.IntelligentOCR.Activities": {
             "include": "Runtime",
